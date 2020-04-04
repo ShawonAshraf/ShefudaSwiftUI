@@ -1,0 +1,1181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03291E9E243908510064CA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03291E9D243908510064CA3D /* AppDelegate.swift */; };
+		03291EA0243908510064CA3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03291E9F243908510064CA3D /* SceneDelegate.swift */; };
+		03291EA2243908510064CA3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03291EA1243908510064CA3D /* ContentView.swift */; };
+		03291EA7243908520064CA3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03291EA6243908520064CA3D /* Preview Assets.xcassets */; };
+		03291EAA243908520064CA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03291EA8243908520064CA3D /* LaunchScreen.storyboard */; };
+		03291F7B243908650064CA3D /* kane_dhukena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB2243908640064CA3D /* kane_dhukena.mp3 */; };
+		03291F7C243908650064CA3D /* moja_kori_na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB3243908640064CA3D /* moja_kori_na.mp3 */; };
+		03291F7D243908650064CA3D /* hosh_ase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB4243908640064CA3D /* hosh_ase.mp3 */; };
+		03291F7E243908650064CA3D /* tor_poton_hobe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB5243908640064CA3D /* tor_poton_hobe.mp3 */; };
+		03291F7F243908650064CA3D /* chapabazi_koro_na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB6243908640064CA3D /* chapabazi_koro_na.mp3 */; };
+		03291F80243908650064CA3D /* TOR PUTKI TUI MAR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB7243908640064CA3D /* TOR PUTKI TUI MAR.mp3 */; };
+		03291F81243908650064CA3D /* tor shona toh kharay na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB8243908640064CA3D /* tor shona toh kharay na.mp3 */; };
+		03291F82243908650064CA3D /* love is life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EB9243908640064CA3D /* love is life.mp3 */; };
+		03291F83243908650064CA3D /* khankir pola petni sudas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EBA243908640064CA3D /* khankir pola petni sudas.mp3 */; };
+		03291F84243908650064CA3D /* oije_kauua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EBB243908640064CA3D /* oije_kauua.mp3 */; };
+		03291F85243908650064CA3D /* nijer_taka_diya_mod_kinsi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EBC243908640064CA3D /* nijer_taka_diya_mod_kinsi.mp3 */; };
+		03291F86243908650064CA3D /* beshsha pola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EBD243908640064CA3D /* beshsha pola.mp3 */; };
+		03291F87243908650064CA3D /* ami_vashar_abishsek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EBE243908640064CA3D /* ami_vashar_abishsek.mp3 */; };
+		03291F88243908650064CA3D /* tora moira ja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EBF243908640064CA3D /* tora moira ja.mp3 */; };
+		03291F89243908650064CA3D /* khelare sudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC0243908640064CA3D /* khelare sudi.mp3 */; };
+		03291F8A243908650064CA3D /* amr_onk_jiboni_prokash_hoyese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC1243908640064CA3D /* amr_onk_jiboni_prokash_hoyese.mp3 */; };
+		03291F8B243908650064CA3D /* mod_khaitasi_akhon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC2243908640064CA3D /* mod_khaitasi_akhon.mp3 */; };
+		03291F8C243908650064CA3D /* golavanga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC3243908640064CA3D /* golavanga.mp3 */; };
+		03291F8D243908650064CA3D /* ami_mrittoke_joy_koresi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC4243908640064CA3D /* ami_mrittoke_joy_koresi.mp3 */; };
+		03291F8E243908650064CA3D /* kopal_ta_dekheyso_kmn_amar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC5243908640064CA3D /* kopal_ta_dekheyso_kmn_amar.mp3 */; };
+		03291F8F243908650064CA3D /* lojja lojja lojja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC6243908640064CA3D /* lojja lojja lojja.mp3 */; };
+		03291F90243908650064CA3D /* ter_pan_na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC7243908640064CA3D /* ter_pan_na.mp3 */; };
+		03291F91243908650064CA3D /* proman_ase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC8243908640064CA3D /* proman_ase.mp3 */; };
+		03291F92243908650064CA3D /* amar bal fala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EC9243908640064CA3D /* amar bal fala.mp3 */; };
+		03291F93243908650064CA3D /* hazar_ta_id_banabo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ECA243908640064CA3D /* hazar_ta_id_banabo.mp3 */; };
+		03291F94243908650064CA3D /* ami_ai_desh_sadhin_korsi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ECB243908640064CA3D /* ami_ai_desh_sadhin_korsi.mp3 */; };
+		03291F95243908650064CA3D /* kemon_lagse_toder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ECC243908640064CA3D /* kemon_lagse_toder.mp3 */; };
+		03291F96243908650064CA3D /* FOKINNI GORIB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ECD243908640064CA3D /* FOKINNI GORIB.mp3 */; };
+		03291F97243908650064CA3D /* haramjadara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ECE243908640064CA3D /* haramjadara.mp3 */; };
+		03291F98243908650064CA3D /* oshikhito borbor chotoloker jatera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ECF243908640064CA3D /* oshikhito borbor chotoloker jatera.mp3 */; };
+		03291F99243908650064CA3D /* tomader_jader_bandhobi_nai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED0243908640064CA3D /* tomader_jader_bandhobi_nai.mp3 */; };
+		03291F9A243908650064CA3D /* amar_ogonito_bandhobi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED1243908640064CA3D /* amar_ogonito_bandhobi.mp3 */; };
+		03291F9B243908650064CA3D /* beshar sodara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED2243908640064CA3D /* beshar sodara.mp3 */; };
+		03291F9C243908650064CA3D /* beimani_korese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED3243908640064CA3D /* beimani_korese.mp3 */; };
+		03291F9D243908650064CA3D /* b_a_l_bal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED4243908640064CA3D /* b_a_l_bal.mp3 */; };
+		03291F9E243908650064CA3D /* I hate you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED5243908640064CA3D /* I hate you.mp3 */; };
+		03291F9F243908650064CA3D /* nangta_hoya_dekhaya_dimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED6243908640064CA3D /* nangta_hoya_dekhaya_dimo.mp3 */; };
+		03291FA0243908650064CA3D /* of_course_ami_young.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED7243908640064CA3D /* of_course_ami_young.mp3 */; };
+		03291FA1243908650064CA3D /* ami_hobo_bongovita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED8243908640064CA3D /* ami_hobo_bongovita.mp3 */; };
+		03291FA2243908650064CA3D /* murukkhusuda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291ED9243908640064CA3D /* murukkhusuda.mp3 */; };
+		03291FA3243908650064CA3D /* mod_kha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EDA243908640064CA3D /* mod_kha.mp3 */; };
+		03291FA4243908650064CA3D /* ei tora more ja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EDB243908640064CA3D /* ei tora more ja.mp3 */; };
+		03291FA5243908650064CA3D /* fokinnir suda desh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EDC243908640064CA3D /* fokinnir suda desh.mp3 */; };
+		03291FA6243908650064CA3D /* jama_kapor_na_porle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EDD243908640064CA3D /* jama_kapor_na_porle.mp3 */; };
+		03291FA7243908650064CA3D /* pad_dile_hago.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EDE243908640064CA3D /* pad_dile_hago.mp3 */; };
+		03291FA8243908650064CA3D /* priyotoma_tomake_valobashi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EDF243908640064CA3D /* priyotoma_tomake_valobashi.mp3 */; };
+		03291FA9243908650064CA3D /* TOR BOINRE TUI SOD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE0243908640064CA3D /* TOR BOINRE TUI SOD.mp3 */; };
+		03291FAA243908650064CA3D /* tor_mokhe_gondho_gaye_gondho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE1243908640064CA3D /* tor_mokhe_gondho_gaye_gondho.mp3 */; };
+		03291FAB243908650064CA3D /* love never dies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE2243908640064CA3D /* love never dies.mp3 */; };
+		03291FAC243908650064CA3D /* motherfucker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE3243908640064CA3D /* motherfucker.mp3 */; };
+		03291FAD243908650064CA3D /* shoitan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE4243908640064CA3D /* shoitan.mp3 */; };
+		03291FAE243908650064CA3D /* amare kuttay sudaise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE5243908640064CA3D /* amare kuttay sudaise.mp3 */; };
+		03291FAF243908650064CA3D /* tar_telifon_number_amke_dao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE6243908640064CA3D /* tar_telifon_number_amke_dao.mp3 */; };
+		03291FB0243908650064CA3D /* daini_rakhkhoshi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE7243908640064CA3D /* daini_rakhkhoshi.mp3 */; };
+		03291FB1243908650064CA3D /* dhormo soda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE8243908640064CA3D /* dhormo soda.mp3 */; };
+		03291FB2243908650064CA3D /* ami_bishsher_sera_goyenda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EE9243908640064CA3D /* ami_bishsher_sera_goyenda.mp3 */; };
+		03291FB3243908650064CA3D /* mod_beshi_khaya_falaysi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EEA243908640064CA3D /* mod_beshi_khaya_falaysi.mp3 */; };
+		03291FB4243908650064CA3D /* love_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EEB243908640064CA3D /* love_you.mp3 */; };
+		03291FB5243908650064CA3D /* mal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EEC243908640064CA3D /* mal.mp3 */; };
+		03291FB6243908650064CA3D /* tor mayere sudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EED243908640064CA3D /* tor mayere sudi.mp3 */; };
+		03291FB7243908650064CA3D /* haramjadi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EEE243908640064CA3D /* haramjadi.mp3 */; };
+		03291FB8243908650064CA3D /* jotar_barir_chote_dat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EEF243908640064CA3D /* jotar_barir_chote_dat.mp3 */; };
+		03291FB9243908650064CA3D /* tui_razakar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF0243908640064CA3D /* tui_razakar.mp3 */; };
+		03291FBA243908650064CA3D /* tomra_to_oshor_cheye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF1243908640064CA3D /* tomra_to_oshor_cheye.mp3 */; };
+		03291FBB243908650064CA3D /* jatisongher_upodeshta_silam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF2243908640064CA3D /* jatisongher_upodeshta_silam.mp3 */; };
+		03291FBC243908650064CA3D /* miya_bibi_raji.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF3243908640064CA3D /* miya_bibi_raji.mp3 */; };
+		03291FBD243908650064CA3D /* ki_khobor_tromader.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF4243908640064CA3D /* ki_khobor_tromader.mp3 */; };
+		03291FBE243908650064CA3D /* ai_morkho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF5243908640064CA3D /* ai_morkho.mp3 */; };
+		03291FBF243908650064CA3D /* sudi na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF6243908640064CA3D /* sudi na.mp3 */; };
+		03291FC0243908650064CA3D /* Evil Laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF7243908640064CA3D /* Evil Laugh.mp3 */; };
+		03291FC1243908650064CA3D /* mod khabi manush hobi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF8243908640064CA3D /* mod khabi manush hobi.mp3 */; };
+		03291FC2243908650064CA3D /* take_sera_sandle_nikhkhep_koro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EF9243908640064CA3D /* take_sera_sandle_nikhkhep_koro.mp3 */; };
+		03291FC3243908650064CA3D /* tor mayere tui sod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFA243908640064CA3D /* tor mayere tui sod.mp3 */; };
+		03291FC4243908650064CA3D /* khankir pola 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFB243908640064CA3D /* khankir pola 01.mp3 */; };
+		03291FC5243908650064CA3D /* bishshobikhhato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFC243908640064CA3D /* bishshobikhhato.mp3 */; };
+		03291FC6243908650064CA3D /* oke thutu maro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFD243908640064CA3D /* oke thutu maro.mp3 */; };
+		03291FC7243908650064CA3D /* mod khabi, magi sudbi, ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFE243908640064CA3D /* mod khabi, magi sudbi, ok.mp3 */; };
+		03291FC8243908650064CA3D /* tora kuttasoda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFF243908640064CA3D /* tora kuttasoda.mp3 */; };
+		03291FC9243908650064CA3D /* tora_manosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F00243908640064CA3D /* tora_manosh.mp3 */; };
+		03291FCA243908650064CA3D /* banglar_manosh_ak_hou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F01243908640064CA3D /* banglar_manosh_ak_hou.mp3 */; };
+		03291FCB243908650064CA3D /* tora murukkhusuda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F02243908640064CA3D /* tora murukkhusuda.mp3 */; };
+		03291FCC243908650064CA3D /* itihash_janos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F03243908640064CA3D /* itihash_janos.mp3 */; };
+		03291FCD243908650064CA3D /* psylogical_treatment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F04243908640064CA3D /* psylogical_treatment.mp3 */; };
+		03291FCE243908650064CA3D /* taka_abong_sundori_toroni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F05243908640064CA3D /* taka_abong_sundori_toroni.mp3 */; };
+		03291FCF243908650064CA3D /* sejonno_ami_ottonto_dokhkhito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F06243908640064CA3D /* sejonno_ami_ottonto_dokhkhito.mp3 */; };
+		03291FD0243908650064CA3D /* kutta diye sodabo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F07243908640064CA3D /* kutta diye sodabo.mp3 */; };
+		03291FD1243908650064CA3D /* hingsa_song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F08243908640064CA3D /* hingsa_song.mp3 */; };
+		03291FD2243908650064CA3D /* apnara_protibad_koron.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F09243908640064CA3D /* apnara_protibad_koron.mp3 */; };
+		03291FD3243908650064CA3D /* dhonnobad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F0A243908640064CA3D /* dhonnobad.mp3 */; };
+		03291FD4243908650064CA3D /* governor er putkite ami sep dia dhukai disi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F0B243908640064CA3D /* governor er putkite ami sep dia dhukai disi.mp3 */; };
+		03291FD5243908650064CA3D /* taka_poysa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F0C243908640064CA3D /* taka_poysa.mp3 */; };
+		03291FD6243908650064CA3D /* tui_gorib.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F0D243908640064CA3D /* tui_gorib.mp3 */; };
+		03291FD7243908650064CA3D /* bandorer_ki_lej_ase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F0E243908640064CA3D /* bandorer_ki_lej_ase.mp3 */; };
+		03291FD8243908650064CA3D /* hazar_sangbadik_amar_interview_nei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F0F243908640064CA3D /* hazar_sangbadik_amar_interview_nei.mp3 */; };
+		03291FD9243908650064CA3D /* amr_akta_foshom_chirte_parbina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F10243908640064CA3D /* amr_akta_foshom_chirte_parbina.mp3 */; };
+		03291FDA243908650064CA3D /* ami_voy_paina_ami_nirvik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F11243908640064CA3D /* ami_voy_paina_ami_nirvik.mp3 */; };
+		03291FDB243908650064CA3D /* cheers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F12243908640064CA3D /* cheers.mp3 */; };
+		03291FDC243908650064CA3D /* chulkani_tolkani_to_thakei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F13243908640064CA3D /* chulkani_tolkani_to_thakei.mp3 */; };
+		03291FDD243908650064CA3D /* ami_ekjon_vip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F14243908640064CA3D /* ami_ekjon_vip.mp3 */; };
+		03291FDE243908650064CA3D /* dakat_er_sordar_criminal_joghonno_beyadob.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F15243908640064CA3D /* dakat_er_sordar_criminal_joghonno_beyadob.mp3 */; };
+		03291FDF243908650064CA3D /* rat_jaga_pakhira.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F16243908640064CA3D /* rat_jaga_pakhira.mp3 */; };
+		03291FE0243908650064CA3D /* ahhhh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F17243908640064CA3D /* ahhhh.mp3 */; };
+		03291FE1243908650064CA3D /* facebook_ese_sotto_boli.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F18243908640064CA3D /* facebook_ese_sotto_boli.mp3 */; };
+		03291FE2243908650064CA3D /* tomader_ki_kosto_lagena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F19243908640064CA3D /* tomader_ki_kosto_lagena.mp3 */; };
+		03291FE3243908650064CA3D /* valo_manosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F1A243908640064CA3D /* valo_manosh.mp3 */; };
+		03291FE4243908650064CA3D /* TOR MA BURI SUDI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F1B243908640064CA3D /* TOR MA BURI SUDI.mp3 */; };
+		03291FE5243908650064CA3D /* amar_new_bandhobi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F1C243908640064CA3D /* amar_new_bandhobi.mp3 */; };
+		03291FE6243908650064CA3D /* tor maayer bhoda re ami sudi na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F1D243908640064CA3D /* tor maayer bhoda re ami sudi na.mp3 */; };
+		03291FE7243908650064CA3D /* ore_bad_de.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F1E243908640064CA3D /* ore_bad_de.mp3 */; };
+		03291FE8243908650064CA3D /* TOR MAIRE SUDTE ASHI NAI KHANKIR POLA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F1F243908640064CA3D /* TOR MAIRE SUDTE ASHI NAI KHANKIR POLA.mp3 */; };
+		03291FE9243908650064CA3D /* lej_bishisto_silam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F20243908640064CA3D /* lej_bishisto_silam.mp3 */; };
+		03291FEA243908650064CA3D /* khubi oshobho kharap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F21243908640064CA3D /* khubi oshobho kharap.mp3 */; };
+		03291FEB243908650064CA3D /* amar_voy_manosh_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F22243908640064CA3D /* amar_voy_manosh_e.mp3 */; };
+		03291FEC243908650064CA3D /* ami_fokir_dorbesh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F23243908640064CA3D /* ami_fokir_dorbesh.mp3 */; };
+		03291FED243908650064CA3D /* shubho shondha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F24243908640064CA3D /* shubho shondha.mp3 */; };
+		03291FEE243908650064CA3D /* hingse_hoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F25243908640064CA3D /* hingse_hoi.mp3 */; };
+		03291FEF243908650064CA3D /* helloo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F26243908640064CA3D /* helloo.mp3 */; };
+		03291FF0243908650064CA3D /* lathi_marle_ke_sobdo_korena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F27243908640064CA3D /* lathi_marle_ke_sobdo_korena.mp3 */; };
+		03291FF1243908650064CA3D /* rubbish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F28243908640064CA3D /* rubbish.mp3 */; };
+		03291FF2243908650064CA3D /* donald_trump_ke_2ba_president.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F29243908640064CA3D /* donald_trump_ke_2ba_president.mp3 */; };
+		03291FF3243908650064CA3D /* sotto_kotha_jante_chaile_mod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2A243908640064CA3D /* sotto_kotha_jante_chaile_mod.mp3 */; };
+		03291FF4243908650064CA3D /* bondami_korteaso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2B243908640064CA3D /* bondami_korteaso.mp3 */; };
+		03291FF5243908650064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2C243908640064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 */; };
+		03291FF6243908650064CA3D /* mod khabi, magi sudbi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2D243908640064CA3D /* mod khabi, magi sudbi.mp3 */; };
+		03291FF7243908650064CA3D /* amke_koti_koti_manush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2E243908640064CA3D /* amke_koti_koti_manush.mp3 */; };
+		03291FF8243908650064CA3D /* mod na khaile tor mayere sudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2F243908640064CA3D /* mod na khaile tor mayere sudi.mp3 */; };
+		03291FF9243908650064CA3D /* meyeti_khube_sundor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F30243908640064CA3D /* meyeti_khube_sundor.mp3 */; };
+		03291FFA243908650064CA3D /* sob_noyakhailla_hoya_gese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F31243908640064CA3D /* sob_noyakhailla_hoya_gese.mp3 */; };
+		03291FFB243908650064CA3D /* ami_eshesi_ghum_vangate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F32243908640064CA3D /* ami_eshesi_ghum_vangate.mp3 */; };
+		03291FFC243908650064CA3D /* apnara_ghom_theke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F33243908640064CA3D /* apnara_ghom_theke.mp3 */; };
+		03291FFD243908650064CA3D /* Tora shob chor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F34243908640064CA3D /* Tora shob chor.mp3 */; };
+		03291FFE243908650064CA3D /* tomake_dekhe_rajpotro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F35243908640064CA3D /* tomake_dekhe_rajpotro.mp3 */; };
+		03291FFF243908650064CA3D /* tomader_lozza_sorom_nai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F36243908640064CA3D /* tomader_lozza_sorom_nai.mp3 */; };
+		03292000243908650064CA3D /* tor mayere tui sod 02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F37243908640064CA3D /* tor mayere tui sod 02.mp3 */; };
+		03292001243908650064CA3D /* oshikhkhito_morkhobo_bosti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F38243908640064CA3D /* oshikhkhito_morkhobo_bosti.mp3 */; };
+		03292002243908650064CA3D /* amar_akta_telifone_prithibi_kape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F39243908640064CA3D /* amar_akta_telifone_prithibi_kape.mp3 */; };
+		03292003243908650064CA3D /* shubho oporanho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F3A243908640064CA3D /* shubho oporanho.mp3 */; };
+		03292004243908650064CA3D /* beshsha magi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F3B243908640064CA3D /* beshsha magi.mp3 */; };
+		03292005243908650064CA3D /* ghum_vanganiya_pakhi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F3C243908640064CA3D /* ghum_vanganiya_pakhi.mp3 */; };
+		03292006243908650064CA3D /* sobai_valo_thakben_sostho_thakben.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F3D243908640064CA3D /* sobai_valo_thakben_sostho_thakben.mp3 */; };
+		03292007243908650064CA3D /* gorib.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F3E243908640064CA3D /* gorib.mp3 */; };
+		03292008243908650064CA3D /* jmn_kokor_tmn_mogor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F3F243908640064CA3D /* jmn_kokor_tmn_mogor.mp3 */; };
+		03292009243908650064CA3D /* YOU BLOODY BASTARD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F40243908640064CA3D /* YOU BLOODY BASTARD.mp3 */; };
+		0329200A243908650064CA3D /* mod khao ar magi chudo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F41243908640064CA3D /* mod khao ar magi chudo.mp3 */; };
+		0329200B243908650064CA3D /* toder_moto_sromik_na.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F42243908640064CA3D /* toder_moto_sromik_na.mp3 */; };
+		0329200C243908650064CA3D /* nirlojjo behaya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F43243908640064CA3D /* nirlojjo behaya.mp3 */; };
+		0329200D243908650064CA3D /* soprovat_bd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F44243908640064CA3D /* soprovat_bd.mp3 */; };
+		0329200E243908650064CA3D /* KUTTAR BACHA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F45243908640064CA3D /* KUTTAR BACHA.mp3 */; };
+		0329200F243908650064CA3D /* Ascended khankir pola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F46243908640064CA3D /* Ascended khankir pola.mp3 */; };
+		03292010243908650064CA3D /* olta_palta_boltesi_kenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F47243908640064CA3D /* olta_palta_boltesi_kenu.mp3 */; };
+		03292011243908650064CA3D /* khanki magi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F48243908640064CA3D /* khanki magi.mp3 */; };
+		03292012243908650064CA3D /* marte_marte_dat_gulo_fele_dite_parle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F49243908640064CA3D /* marte_marte_dat_gulo_fele_dite_parle.mp3 */; };
+		03292013243908650064CA3D /* mod khabi naki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F4A243908640064CA3D /* mod khabi naki.mp3 */; };
+		03292014243908650064CA3D /* amr_sodho_ektai_dorbolota.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F4B243908640064CA3D /* amr_sodho_ektai_dorbolota.mp3 */; };
+		03292015243908650064CA3D /* bet_diye_marte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F4C243908640064CA3D /* bet_diye_marte.mp3 */; };
+		03292016243908650064CA3D /* stupid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F4D243908640064CA3D /* stupid.mp3 */; };
+		03292017243908650064CA3D /* oke_sostho_kore_dibo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F4E243908640064CA3D /* oke_sostho_kore_dibo.mp3 */; };
+		03292018243908650064CA3D /* gayer_rong_forsha_ase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F4F243908640064CA3D /* gayer_rong_forsha_ase.mp3 */; };
+		03292019243908650064CA3D /* noakhailla_khatash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F50243908640064CA3D /* noakhailla_khatash.mp3 */; };
+		0329201A243908650064CA3D /* tros_tros_kore_mara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F51243908640064CA3D /* tros_tros_kore_mara.mp3 */; };
+		0329201B243908650064CA3D /* amr_pet_koto_boro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F52243908640064CA3D /* amr_pet_koto_boro.mp3 */; };
+		0329201C243908650064CA3D /* gal_toshtosh_kore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F53243908640064CA3D /* gal_toshtosh_kore.mp3 */; };
+		0329201D243908650064CA3D /* amke_valobasen_kenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F54243908640064CA3D /* amke_valobasen_kenu.mp3 */; };
+		0329201E243908650064CA3D /* mithuk dhokabaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F55243908640064CA3D /* mithuk dhokabaj.mp3 */; };
+		0329201F243908650064CA3D /* gushti sudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F56243908640064CA3D /* gushti sudi.mp3 */; };
+		03292020243908650064CA3D /* shutki khas, petni sudos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F57243908640064CA3D /* shutki khas, petni sudos.mp3 */; };
+		03292021243908650064CA3D /* bash_dei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F58243908640064CA3D /* bash_dei.mp3 */; };
+		03292022243908650064CA3D /* Shuprobhat Bangladeshe Ekhon Shuprobhat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F59243908640064CA3D /* Shuprobhat Bangladeshe Ekhon Shuprobhat.mp3 */; };
+		03292023243908650064CA3D /* beshar soda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F5A243908640064CA3D /* beshar soda.mp3 */; };
+		03292024243908650064CA3D /* pant_kholo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F5B243908640064CA3D /* pant_kholo.mp3 */; };
+		03292025243908650064CA3D /* faltu_kothakar_jottosob.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F5C243908640064CA3D /* faltu_kothakar_jottosob.mp3 */; };
+		03292026243908650064CA3D /* football_khelba_amr_sathe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F5D243908640064CA3D /* football_khelba_amr_sathe.mp3 */; };
+		03292027243908650064CA3D /* mod_binimoy_korsi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F5E243908640064CA3D /* mod_binimoy_korsi.mp3 */; };
+		03292028243908650064CA3D /* khanki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F5F243908640064CA3D /* khanki.mp3 */; };
+		03292029243908650064CA3D /* smartphn_diya_porokiya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F60243908640064CA3D /* smartphn_diya_porokiya.mp3 */; };
+		0329202A243908650064CA3D /* mod khabo ar magi sudbo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F61243908640064CA3D /* mod khabo ar magi sudbo.mp3 */; };
+		0329202B243908650064CA3D /* MOTHERFUCKER BASTARD JAROZ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F62243908640064CA3D /* MOTHERFUCKER BASTARD JAROZ.mp3 */; };
+		0329202C243908650064CA3D /* toder ami ghrina kori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F63243908640064CA3D /* toder ami ghrina kori.mp3 */; };
+		0329202D243908650064CA3D /* akhon_gali_dibo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F64243908640064CA3D /* akhon_gali_dibo.mp3 */; };
+		0329202E243908650064CA3D /* khela_dekh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F65243908640064CA3D /* khela_dekh.mp3 */; };
+		0329202F243908650064CA3D /* prem_dhormo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F66243908640064CA3D /* prem_dhormo.mp3 */; };
+		03292030243908650064CA3D /* golam_er_bachcha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F67243908640064CA3D /* golam_er_bachcha.mp3 */; };
+		03292031243908650064CA3D /* osadharon_goro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F68243908640064CA3D /* osadharon_goro.mp3 */; };
+		03292032243908650064CA3D /* onk_akam_kooro_tomra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F69243908650064CA3D /* onk_akam_kooro_tomra.mp3 */; };
+		03292033243908650064CA3D /* oishoria_rai_amk_chomo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F6A243908650064CA3D /* oishoria_rai_amk_chomo.mp3 */; };
+		03292034243908650064CA3D /* kutta diya sodaite sodaite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F6B243908650064CA3D /* kutta diya sodaite sodaite.mp3 */; };
+		03292035243908650064CA3D /* mod_khaba_naki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F6C243908650064CA3D /* mod_khaba_naki.mp3 */; };
+		03292036243908650064CA3D /* togore ami kutta diya chodai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F6D243908650064CA3D /* togore ami kutta diya chodai.mp3 */; };
+		03292037243908650064CA3D /* preme_seka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F6E243908650064CA3D /* preme_seka.mp3 */; };
+		03292038243908650064CA3D /* ai_sele_tor_girlfriend_nei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F6F243908650064CA3D /* ai_sele_tor_girlfriend_nei.mp3 */; };
+		03292039243908650064CA3D /* kotha_kinto_sotto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F70243908650064CA3D /* kotha_kinto_sotto.mp3 */; };
+		0329203A243908650064CA3D /* magi sudo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F71243908650064CA3D /* magi sudo.mp3 */; };
+		0329203B243908650064CA3D /* agon_niye_khelbina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F72243908650064CA3D /* agon_niye_khelbina.mp3 */; };
+		0329203C243908650064CA3D /* taar putki maira disi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F73243908650064CA3D /* taar putki maira disi.mp3 */; };
+		0329203D243908650064CA3D /* goriber suda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F74243908650064CA3D /* goriber suda.mp3 */; };
+		0329203E243908650064CA3D /* khankir pola mod kha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F75243908650064CA3D /* khankir pola mod kha.mp3 */; };
+		0329203F243908650064CA3D /* thank_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F76243908650064CA3D /* thank_you.mp3 */; };
+		03292040243908650064CA3D /* akhon_ki_mod_khawar_somoy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F77243908650064CA3D /* akhon_ki_mod_khawar_somoy.mp3 */; };
+		03292041243908650064CA3D /* tui gorib suda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F78243908650064CA3D /* tui gorib suda.mp3 */; };
+		03292042243908650064CA3D /* amar_moto_hote_chaw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F79243908650064CA3D /* amar_moto_hote_chaw.mp3 */; };
+		03292043243908650064CA3D /* bhoda diya kutta diya sodai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F7A243908650064CA3D /* bhoda diya kutta diya sodai.mp3 */; };
+		032920452439086A0064CA3D /* clip_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 032920442439086A0064CA3D /* clip_data.json */; };
+		03292047243908930064CA3D /* SoundClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292046243908930064CA3D /* SoundClip.swift */; };
+		03292049243908DD0064CA3D /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292048243908DD0064CA3D /* DataLoader.swift */; };
+		0329204B24390B320064CA3D /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329204A24390B320064CA3D /* TableRow.swift */; };
+		0329204D24390C2B0064CA3D /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329204C24390C2B0064CA3D /* ShareSheet.swift */; };
+		0329204F24390CDC0064CA3D /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329204E24390CDC0064CA3D /* SoundPlayer.swift */; };
+		0329205124390F670064CA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0329205024390F670064CA3D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03291E9A243908510064CA3D /* ShefudaSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShefudaSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03291E9D243908510064CA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03291E9F243908510064CA3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03291EA1243908510064CA3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03291EA6243908520064CA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03291EA9243908520064CA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03291EAB243908520064CA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03291EB2243908640064CA3D /* kane_dhukena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kane_dhukena.mp3; sourceTree = "<group>"; };
+		03291EB3243908640064CA3D /* moja_kori_na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moja_kori_na.mp3; sourceTree = "<group>"; };
+		03291EB4243908640064CA3D /* hosh_ase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hosh_ase.mp3; sourceTree = "<group>"; };
+		03291EB5243908640064CA3D /* tor_poton_hobe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tor_poton_hobe.mp3; sourceTree = "<group>"; };
+		03291EB6243908640064CA3D /* chapabazi_koro_na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chapabazi_koro_na.mp3; sourceTree = "<group>"; };
+		03291EB7243908640064CA3D /* TOR PUTKI TUI MAR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TOR PUTKI TUI MAR.mp3"; sourceTree = "<group>"; };
+		03291EB8243908640064CA3D /* tor shona toh kharay na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor shona toh kharay na.mp3"; sourceTree = "<group>"; };
+		03291EB9243908640064CA3D /* love is life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "love is life.mp3"; sourceTree = "<group>"; };
+		03291EBA243908640064CA3D /* khankir pola petni sudas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khankir pola petni sudas.mp3"; sourceTree = "<group>"; };
+		03291EBB243908640064CA3D /* oije_kauua.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oije_kauua.mp3; sourceTree = "<group>"; };
+		03291EBC243908640064CA3D /* nijer_taka_diya_mod_kinsi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nijer_taka_diya_mod_kinsi.mp3; sourceTree = "<group>"; };
+		03291EBD243908640064CA3D /* beshsha pola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beshsha pola.mp3"; sourceTree = "<group>"; };
+		03291EBE243908640064CA3D /* ami_vashar_abishsek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_vashar_abishsek.mp3; sourceTree = "<group>"; };
+		03291EBF243908640064CA3D /* tora moira ja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tora moira ja.mp3"; sourceTree = "<group>"; };
+		03291EC0243908640064CA3D /* khelare sudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khelare sudi.mp3"; sourceTree = "<group>"; };
+		03291EC1243908640064CA3D /* amr_onk_jiboni_prokash_hoyese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amr_onk_jiboni_prokash_hoyese.mp3; sourceTree = "<group>"; };
+		03291EC2243908640064CA3D /* mod_khaitasi_akhon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_khaitasi_akhon.mp3; sourceTree = "<group>"; };
+		03291EC3243908640064CA3D /* golavanga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golavanga.mp3; sourceTree = "<group>"; };
+		03291EC4243908640064CA3D /* ami_mrittoke_joy_koresi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_mrittoke_joy_koresi.mp3; sourceTree = "<group>"; };
+		03291EC5243908640064CA3D /* kopal_ta_dekheyso_kmn_amar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kopal_ta_dekheyso_kmn_amar.mp3; sourceTree = "<group>"; };
+		03291EC6243908640064CA3D /* lojja lojja lojja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lojja lojja lojja.mp3"; sourceTree = "<group>"; };
+		03291EC7243908640064CA3D /* ter_pan_na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ter_pan_na.mp3; sourceTree = "<group>"; };
+		03291EC8243908640064CA3D /* proman_ase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = proman_ase.mp3; sourceTree = "<group>"; };
+		03291EC9243908640064CA3D /* amar bal fala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "amar bal fala.mp3"; sourceTree = "<group>"; };
+		03291ECA243908640064CA3D /* hazar_ta_id_banabo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hazar_ta_id_banabo.mp3; sourceTree = "<group>"; };
+		03291ECB243908640064CA3D /* ami_ai_desh_sadhin_korsi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_ai_desh_sadhin_korsi.mp3; sourceTree = "<group>"; };
+		03291ECC243908640064CA3D /* kemon_lagse_toder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kemon_lagse_toder.mp3; sourceTree = "<group>"; };
+		03291ECD243908640064CA3D /* FOKINNI GORIB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FOKINNI GORIB.mp3"; sourceTree = "<group>"; };
+		03291ECE243908640064CA3D /* haramjadara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = haramjadara.mp3; sourceTree = "<group>"; };
+		03291ECF243908640064CA3D /* oshikhito borbor chotoloker jatera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oshikhito borbor chotoloker jatera.mp3"; sourceTree = "<group>"; };
+		03291ED0243908640064CA3D /* tomader_jader_bandhobi_nai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomader_jader_bandhobi_nai.mp3; sourceTree = "<group>"; };
+		03291ED1243908640064CA3D /* amar_ogonito_bandhobi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amar_ogonito_bandhobi.mp3; sourceTree = "<group>"; };
+		03291ED2243908640064CA3D /* beshar sodara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beshar sodara.mp3"; sourceTree = "<group>"; };
+		03291ED3243908640064CA3D /* beimani_korese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beimani_korese.mp3; sourceTree = "<group>"; };
+		03291ED4243908640064CA3D /* b_a_l_bal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_a_l_bal.mp3; sourceTree = "<group>"; };
+		03291ED5243908640064CA3D /* I hate you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I hate you.mp3"; sourceTree = "<group>"; };
+		03291ED6243908640064CA3D /* nangta_hoya_dekhaya_dimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nangta_hoya_dekhaya_dimo.mp3; sourceTree = "<group>"; };
+		03291ED7243908640064CA3D /* of_course_ami_young.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = of_course_ami_young.mp3; sourceTree = "<group>"; };
+		03291ED8243908640064CA3D /* ami_hobo_bongovita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_hobo_bongovita.mp3; sourceTree = "<group>"; };
+		03291ED9243908640064CA3D /* murukkhusuda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = murukkhusuda.mp3; sourceTree = "<group>"; };
+		03291EDA243908640064CA3D /* mod_kha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_kha.mp3; sourceTree = "<group>"; };
+		03291EDB243908640064CA3D /* ei tora more ja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ei tora more ja.mp3"; sourceTree = "<group>"; };
+		03291EDC243908640064CA3D /* fokinnir suda desh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fokinnir suda desh.mp3"; sourceTree = "<group>"; };
+		03291EDD243908640064CA3D /* jama_kapor_na_porle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jama_kapor_na_porle.mp3; sourceTree = "<group>"; };
+		03291EDE243908640064CA3D /* pad_dile_hago.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pad_dile_hago.mp3; sourceTree = "<group>"; };
+		03291EDF243908640064CA3D /* priyotoma_tomake_valobashi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = priyotoma_tomake_valobashi.mp3; sourceTree = "<group>"; };
+		03291EE0243908640064CA3D /* TOR BOINRE TUI SOD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TOR BOINRE TUI SOD.mp3"; sourceTree = "<group>"; };
+		03291EE1243908640064CA3D /* tor_mokhe_gondho_gaye_gondho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tor_mokhe_gondho_gaye_gondho.mp3; sourceTree = "<group>"; };
+		03291EE2243908640064CA3D /* love never dies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "love never dies.mp3"; sourceTree = "<group>"; };
+		03291EE3243908640064CA3D /* motherfucker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = motherfucker.mp3; sourceTree = "<group>"; };
+		03291EE4243908640064CA3D /* shoitan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoitan.mp3; sourceTree = "<group>"; };
+		03291EE5243908640064CA3D /* amare kuttay sudaise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "amare kuttay sudaise.mp3"; sourceTree = "<group>"; };
+		03291EE6243908640064CA3D /* tar_telifon_number_amke_dao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tar_telifon_number_amke_dao.mp3; sourceTree = "<group>"; };
+		03291EE7243908640064CA3D /* daini_rakhkhoshi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daini_rakhkhoshi.mp3; sourceTree = "<group>"; };
+		03291EE8243908640064CA3D /* dhormo soda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dhormo soda.mp3"; sourceTree = "<group>"; };
+		03291EE9243908640064CA3D /* ami_bishsher_sera_goyenda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_bishsher_sera_goyenda.mp3; sourceTree = "<group>"; };
+		03291EEA243908640064CA3D /* mod_beshi_khaya_falaysi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_beshi_khaya_falaysi.mp3; sourceTree = "<group>"; };
+		03291EEB243908640064CA3D /* love_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = love_you.mp3; sourceTree = "<group>"; };
+		03291EEC243908640064CA3D /* mal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mal.mp3; sourceTree = "<group>"; };
+		03291EED243908640064CA3D /* tor mayere sudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor mayere sudi.mp3"; sourceTree = "<group>"; };
+		03291EEE243908640064CA3D /* haramjadi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = haramjadi.mp3; sourceTree = "<group>"; };
+		03291EEF243908640064CA3D /* jotar_barir_chote_dat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jotar_barir_chote_dat.mp3; sourceTree = "<group>"; };
+		03291EF0243908640064CA3D /* tui_razakar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tui_razakar.mp3; sourceTree = "<group>"; };
+		03291EF1243908640064CA3D /* tomra_to_oshor_cheye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomra_to_oshor_cheye.mp3; sourceTree = "<group>"; };
+		03291EF2243908640064CA3D /* jatisongher_upodeshta_silam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jatisongher_upodeshta_silam.mp3; sourceTree = "<group>"; };
+		03291EF3243908640064CA3D /* miya_bibi_raji.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miya_bibi_raji.mp3; sourceTree = "<group>"; };
+		03291EF4243908640064CA3D /* ki_khobor_tromader.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ki_khobor_tromader.mp3; sourceTree = "<group>"; };
+		03291EF5243908640064CA3D /* ai_morkho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ai_morkho.mp3; sourceTree = "<group>"; };
+		03291EF6243908640064CA3D /* sudi na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sudi na.mp3"; sourceTree = "<group>"; };
+		03291EF7243908640064CA3D /* Evil Laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Evil Laugh.mp3"; sourceTree = "<group>"; };
+		03291EF8243908640064CA3D /* mod khabi manush hobi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabi manush hobi.mp3"; sourceTree = "<group>"; };
+		03291EF9243908640064CA3D /* take_sera_sandle_nikhkhep_koro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = take_sera_sandle_nikhkhep_koro.mp3; sourceTree = "<group>"; };
+		03291EFA243908640064CA3D /* tor mayere tui sod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor mayere tui sod.mp3"; sourceTree = "<group>"; };
+		03291EFB243908640064CA3D /* khankir pola 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khankir pola 01.mp3"; sourceTree = "<group>"; };
+		03291EFC243908640064CA3D /* bishshobikhhato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bishshobikhhato.mp3; sourceTree = "<group>"; };
+		03291EFD243908640064CA3D /* oke thutu maro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oke thutu maro.mp3"; sourceTree = "<group>"; };
+		03291EFE243908640064CA3D /* mod khabi, magi sudbi, ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabi, magi sudbi, ok.mp3"; sourceTree = "<group>"; };
+		03291EFF243908640064CA3D /* tora kuttasoda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tora kuttasoda.mp3"; sourceTree = "<group>"; };
+		03291F00243908640064CA3D /* tora_manosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tora_manosh.mp3; sourceTree = "<group>"; };
+		03291F01243908640064CA3D /* banglar_manosh_ak_hou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banglar_manosh_ak_hou.mp3; sourceTree = "<group>"; };
+		03291F02243908640064CA3D /* tora murukkhusuda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tora murukkhusuda.mp3"; sourceTree = "<group>"; };
+		03291F03243908640064CA3D /* itihash_janos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itihash_janos.mp3; sourceTree = "<group>"; };
+		03291F04243908640064CA3D /* psylogical_treatment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = psylogical_treatment.mp3; sourceTree = "<group>"; };
+		03291F05243908640064CA3D /* taka_abong_sundori_toroni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taka_abong_sundori_toroni.mp3; sourceTree = "<group>"; };
+		03291F06243908640064CA3D /* sejonno_ami_ottonto_dokhkhito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sejonno_ami_ottonto_dokhkhito.mp3; sourceTree = "<group>"; };
+		03291F07243908640064CA3D /* kutta diye sodabo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kutta diye sodabo.mp3"; sourceTree = "<group>"; };
+		03291F08243908640064CA3D /* hingsa_song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hingsa_song.mp3; sourceTree = "<group>"; };
+		03291F09243908640064CA3D /* apnara_protibad_koron.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apnara_protibad_koron.mp3; sourceTree = "<group>"; };
+		03291F0A243908640064CA3D /* dhonnobad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhonnobad.mp3; sourceTree = "<group>"; };
+		03291F0B243908640064CA3D /* governor er putkite ami sep dia dhukai disi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "governor er putkite ami sep dia dhukai disi.mp3"; sourceTree = "<group>"; };
+		03291F0C243908640064CA3D /* taka_poysa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taka_poysa.mp3; sourceTree = "<group>"; };
+		03291F0D243908640064CA3D /* tui_gorib.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tui_gorib.mp3; sourceTree = "<group>"; };
+		03291F0E243908640064CA3D /* bandorer_ki_lej_ase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bandorer_ki_lej_ase.mp3; sourceTree = "<group>"; };
+		03291F0F243908640064CA3D /* hazar_sangbadik_amar_interview_nei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hazar_sangbadik_amar_interview_nei.mp3; sourceTree = "<group>"; };
+		03291F10243908640064CA3D /* amr_akta_foshom_chirte_parbina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amr_akta_foshom_chirte_parbina.mp3; sourceTree = "<group>"; };
+		03291F11243908640064CA3D /* ami_voy_paina_ami_nirvik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_voy_paina_ami_nirvik.mp3; sourceTree = "<group>"; };
+		03291F12243908640064CA3D /* cheers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheers.mp3; sourceTree = "<group>"; };
+		03291F13243908640064CA3D /* chulkani_tolkani_to_thakei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chulkani_tolkani_to_thakei.mp3; sourceTree = "<group>"; };
+		03291F14243908640064CA3D /* ami_ekjon_vip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_ekjon_vip.mp3; sourceTree = "<group>"; };
+		03291F15243908640064CA3D /* dakat_er_sordar_criminal_joghonno_beyadob.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dakat_er_sordar_criminal_joghonno_beyadob.mp3; sourceTree = "<group>"; };
+		03291F16243908640064CA3D /* rat_jaga_pakhira.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rat_jaga_pakhira.mp3; sourceTree = "<group>"; };
+		03291F17243908640064CA3D /* ahhhh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ahhhh.mp3; sourceTree = "<group>"; };
+		03291F18243908640064CA3D /* facebook_ese_sotto_boli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = facebook_ese_sotto_boli.mp3; sourceTree = "<group>"; };
+		03291F19243908640064CA3D /* tomader_ki_kosto_lagena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomader_ki_kosto_lagena.mp3; sourceTree = "<group>"; };
+		03291F1A243908640064CA3D /* valo_manosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valo_manosh.mp3; sourceTree = "<group>"; };
+		03291F1B243908640064CA3D /* TOR MA BURI SUDI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TOR MA BURI SUDI.mp3"; sourceTree = "<group>"; };
+		03291F1C243908640064CA3D /* amar_new_bandhobi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amar_new_bandhobi.mp3; sourceTree = "<group>"; };
+		03291F1D243908640064CA3D /* tor maayer bhoda re ami sudi na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor maayer bhoda re ami sudi na.mp3"; sourceTree = "<group>"; };
+		03291F1E243908640064CA3D /* ore_bad_de.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ore_bad_de.mp3; sourceTree = "<group>"; };
+		03291F1F243908640064CA3D /* TOR MAIRE SUDTE ASHI NAI KHANKIR POLA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TOR MAIRE SUDTE ASHI NAI KHANKIR POLA.mp3"; sourceTree = "<group>"; };
+		03291F20243908640064CA3D /* lej_bishisto_silam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lej_bishisto_silam.mp3; sourceTree = "<group>"; };
+		03291F21243908640064CA3D /* khubi oshobho kharap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khubi oshobho kharap.mp3"; sourceTree = "<group>"; };
+		03291F22243908640064CA3D /* amar_voy_manosh_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amar_voy_manosh_e.mp3; sourceTree = "<group>"; };
+		03291F23243908640064CA3D /* ami_fokir_dorbesh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_fokir_dorbesh.mp3; sourceTree = "<group>"; };
+		03291F24243908640064CA3D /* shubho shondha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shubho shondha.mp3"; sourceTree = "<group>"; };
+		03291F25243908640064CA3D /* hingse_hoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hingse_hoi.mp3; sourceTree = "<group>"; };
+		03291F26243908640064CA3D /* helloo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = helloo.mp3; sourceTree = "<group>"; };
+		03291F27243908640064CA3D /* lathi_marle_ke_sobdo_korena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lathi_marle_ke_sobdo_korena.mp3; sourceTree = "<group>"; };
+		03291F28243908640064CA3D /* rubbish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rubbish.mp3; sourceTree = "<group>"; };
+		03291F29243908640064CA3D /* donald_trump_ke_2ba_president.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = donald_trump_ke_2ba_president.mp3; sourceTree = "<group>"; };
+		03291F2A243908640064CA3D /* sotto_kotha_jante_chaile_mod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sotto_kotha_jante_chaile_mod.mp3; sourceTree = "<group>"; };
+		03291F2B243908640064CA3D /* bondami_korteaso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bondami_korteaso.mp3; sourceTree = "<group>"; };
+		03291F2C243908640064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3"; sourceTree = "<group>"; };
+		03291F2D243908640064CA3D /* mod khabi, magi sudbi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabi, magi sudbi.mp3"; sourceTree = "<group>"; };
+		03291F2E243908640064CA3D /* amke_koti_koti_manush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amke_koti_koti_manush.mp3; sourceTree = "<group>"; };
+		03291F2F243908640064CA3D /* mod na khaile tor mayere sudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod na khaile tor mayere sudi.mp3"; sourceTree = "<group>"; };
+		03291F30243908640064CA3D /* meyeti_khube_sundor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meyeti_khube_sundor.mp3; sourceTree = "<group>"; };
+		03291F31243908640064CA3D /* sob_noyakhailla_hoya_gese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sob_noyakhailla_hoya_gese.mp3; sourceTree = "<group>"; };
+		03291F32243908640064CA3D /* ami_eshesi_ghum_vangate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ami_eshesi_ghum_vangate.mp3; sourceTree = "<group>"; };
+		03291F33243908640064CA3D /* apnara_ghom_theke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apnara_ghom_theke.mp3; sourceTree = "<group>"; };
+		03291F34243908640064CA3D /* Tora shob chor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tora shob chor.mp3"; sourceTree = "<group>"; };
+		03291F35243908640064CA3D /* tomake_dekhe_rajpotro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomake_dekhe_rajpotro.mp3; sourceTree = "<group>"; };
+		03291F36243908640064CA3D /* tomader_lozza_sorom_nai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomader_lozza_sorom_nai.mp3; sourceTree = "<group>"; };
+		03291F37243908640064CA3D /* tor mayere tui sod 02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor mayere tui sod 02.mp3"; sourceTree = "<group>"; };
+		03291F38243908640064CA3D /* oshikhkhito_morkhobo_bosti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oshikhkhito_morkhobo_bosti.mp3; sourceTree = "<group>"; };
+		03291F39243908640064CA3D /* amar_akta_telifone_prithibi_kape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amar_akta_telifone_prithibi_kape.mp3; sourceTree = "<group>"; };
+		03291F3A243908640064CA3D /* shubho oporanho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shubho oporanho.mp3"; sourceTree = "<group>"; };
+		03291F3B243908640064CA3D /* beshsha magi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beshsha magi.mp3"; sourceTree = "<group>"; };
+		03291F3C243908640064CA3D /* ghum_vanganiya_pakhi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ghum_vanganiya_pakhi.mp3; sourceTree = "<group>"; };
+		03291F3D243908640064CA3D /* sobai_valo_thakben_sostho_thakben.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sobai_valo_thakben_sostho_thakben.mp3; sourceTree = "<group>"; };
+		03291F3E243908640064CA3D /* gorib.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gorib.mp3; sourceTree = "<group>"; };
+		03291F3F243908640064CA3D /* jmn_kokor_tmn_mogor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jmn_kokor_tmn_mogor.mp3; sourceTree = "<group>"; };
+		03291F40243908640064CA3D /* YOU BLOODY BASTARD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "YOU BLOODY BASTARD.mp3"; sourceTree = "<group>"; };
+		03291F41243908640064CA3D /* mod khao ar magi chudo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khao ar magi chudo.mp3"; sourceTree = "<group>"; };
+		03291F42243908640064CA3D /* toder_moto_sromik_na.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toder_moto_sromik_na.mp3; sourceTree = "<group>"; };
+		03291F43243908640064CA3D /* nirlojjo behaya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nirlojjo behaya.mp3"; sourceTree = "<group>"; };
+		03291F44243908640064CA3D /* soprovat_bd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soprovat_bd.mp3; sourceTree = "<group>"; };
+		03291F45243908640064CA3D /* KUTTAR BACHA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KUTTAR BACHA.mp3"; sourceTree = "<group>"; };
+		03291F46243908640064CA3D /* Ascended khankir pola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ascended khankir pola.mp3"; sourceTree = "<group>"; };
+		03291F47243908640064CA3D /* olta_palta_boltesi_kenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = olta_palta_boltesi_kenu.mp3; sourceTree = "<group>"; };
+		03291F48243908640064CA3D /* khanki magi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khanki magi.mp3"; sourceTree = "<group>"; };
+		03291F49243908640064CA3D /* marte_marte_dat_gulo_fele_dite_parle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marte_marte_dat_gulo_fele_dite_parle.mp3; sourceTree = "<group>"; };
+		03291F4A243908640064CA3D /* mod khabi naki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabi naki.mp3"; sourceTree = "<group>"; };
+		03291F4B243908640064CA3D /* amr_sodho_ektai_dorbolota.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amr_sodho_ektai_dorbolota.mp3; sourceTree = "<group>"; };
+		03291F4C243908640064CA3D /* bet_diye_marte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bet_diye_marte.mp3; sourceTree = "<group>"; };
+		03291F4D243908640064CA3D /* stupid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stupid.mp3; sourceTree = "<group>"; };
+		03291F4E243908640064CA3D /* oke_sostho_kore_dibo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oke_sostho_kore_dibo.mp3; sourceTree = "<group>"; };
+		03291F4F243908640064CA3D /* gayer_rong_forsha_ase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gayer_rong_forsha_ase.mp3; sourceTree = "<group>"; };
+		03291F50243908640064CA3D /* noakhailla_khatash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noakhailla_khatash.mp3; sourceTree = "<group>"; };
+		03291F51243908640064CA3D /* tros_tros_kore_mara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tros_tros_kore_mara.mp3; sourceTree = "<group>"; };
+		03291F52243908640064CA3D /* amr_pet_koto_boro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amr_pet_koto_boro.mp3; sourceTree = "<group>"; };
+		03291F53243908640064CA3D /* gal_toshtosh_kore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gal_toshtosh_kore.mp3; sourceTree = "<group>"; };
+		03291F54243908640064CA3D /* amke_valobasen_kenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amke_valobasen_kenu.mp3; sourceTree = "<group>"; };
+		03291F55243908640064CA3D /* mithuk dhokabaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mithuk dhokabaj.mp3"; sourceTree = "<group>"; };
+		03291F56243908640064CA3D /* gushti sudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gushti sudi.mp3"; sourceTree = "<group>"; };
+		03291F57243908640064CA3D /* shutki khas, petni sudos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shutki khas, petni sudos.mp3"; sourceTree = "<group>"; };
+		03291F58243908640064CA3D /* bash_dei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bash_dei.mp3; sourceTree = "<group>"; };
+		03291F59243908640064CA3D /* Shuprobhat Bangladeshe Ekhon Shuprobhat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shuprobhat Bangladeshe Ekhon Shuprobhat.mp3"; sourceTree = "<group>"; };
+		03291F5A243908640064CA3D /* beshar soda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beshar soda.mp3"; sourceTree = "<group>"; };
+		03291F5B243908640064CA3D /* pant_kholo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pant_kholo.mp3; sourceTree = "<group>"; };
+		03291F5C243908640064CA3D /* faltu_kothakar_jottosob.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = faltu_kothakar_jottosob.mp3; sourceTree = "<group>"; };
+		03291F5D243908640064CA3D /* football_khelba_amr_sathe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = football_khelba_amr_sathe.mp3; sourceTree = "<group>"; };
+		03291F5E243908640064CA3D /* mod_binimoy_korsi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_binimoy_korsi.mp3; sourceTree = "<group>"; };
+		03291F5F243908640064CA3D /* khanki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = khanki.mp3; sourceTree = "<group>"; };
+		03291F60243908640064CA3D /* smartphn_diya_porokiya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smartphn_diya_porokiya.mp3; sourceTree = "<group>"; };
+		03291F61243908640064CA3D /* mod khabo ar magi sudbo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabo ar magi sudbo.mp3"; sourceTree = "<group>"; };
+		03291F62243908640064CA3D /* MOTHERFUCKER BASTARD JAROZ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MOTHERFUCKER BASTARD JAROZ.mp3"; sourceTree = "<group>"; };
+		03291F63243908640064CA3D /* toder ami ghrina kori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "toder ami ghrina kori.mp3"; sourceTree = "<group>"; };
+		03291F64243908640064CA3D /* akhon_gali_dibo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = akhon_gali_dibo.mp3; sourceTree = "<group>"; };
+		03291F65243908640064CA3D /* khela_dekh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = khela_dekh.mp3; sourceTree = "<group>"; };
+		03291F66243908640064CA3D /* prem_dhormo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = prem_dhormo.mp3; sourceTree = "<group>"; };
+		03291F67243908640064CA3D /* golam_er_bachcha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golam_er_bachcha.mp3; sourceTree = "<group>"; };
+		03291F68243908640064CA3D /* osadharon_goro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osadharon_goro.mp3; sourceTree = "<group>"; };
+		03291F69243908650064CA3D /* onk_akam_kooro_tomra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = onk_akam_kooro_tomra.mp3; sourceTree = "<group>"; };
+		03291F6A243908650064CA3D /* oishoria_rai_amk_chomo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oishoria_rai_amk_chomo.mp3; sourceTree = "<group>"; };
+		03291F6B243908650064CA3D /* kutta diya sodaite sodaite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kutta diya sodaite sodaite.mp3"; sourceTree = "<group>"; };
+		03291F6C243908650064CA3D /* mod_khaba_naki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_khaba_naki.mp3; sourceTree = "<group>"; };
+		03291F6D243908650064CA3D /* togore ami kutta diya chodai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "togore ami kutta diya chodai.mp3"; sourceTree = "<group>"; };
+		03291F6E243908650064CA3D /* preme_seka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = preme_seka.mp3; sourceTree = "<group>"; };
+		03291F6F243908650064CA3D /* ai_sele_tor_girlfriend_nei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ai_sele_tor_girlfriend_nei.mp3; sourceTree = "<group>"; };
+		03291F70243908650064CA3D /* kotha_kinto_sotto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kotha_kinto_sotto.mp3; sourceTree = "<group>"; };
+		03291F71243908650064CA3D /* magi sudo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magi sudo.mp3"; sourceTree = "<group>"; };
+		03291F72243908650064CA3D /* agon_niye_khelbina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = agon_niye_khelbina.mp3; sourceTree = "<group>"; };
+		03291F73243908650064CA3D /* taar putki maira disi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "taar putki maira disi.mp3"; sourceTree = "<group>"; };
+		03291F74243908650064CA3D /* goriber suda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "goriber suda.mp3"; sourceTree = "<group>"; };
+		03291F75243908650064CA3D /* khankir pola mod kha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khankir pola mod kha.mp3"; sourceTree = "<group>"; };
+		03291F76243908650064CA3D /* thank_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thank_you.mp3; sourceTree = "<group>"; };
+		03291F77243908650064CA3D /* akhon_ki_mod_khawar_somoy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = akhon_ki_mod_khawar_somoy.mp3; sourceTree = "<group>"; };
+		03291F78243908650064CA3D /* tui gorib suda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tui gorib suda.mp3"; sourceTree = "<group>"; };
+		03291F79243908650064CA3D /* amar_moto_hote_chaw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amar_moto_hote_chaw.mp3; sourceTree = "<group>"; };
+		03291F7A243908650064CA3D /* bhoda diya kutta diya sodai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bhoda diya kutta diya sodai.mp3"; sourceTree = "<group>"; };
+		032920442439086A0064CA3D /* clip_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clip_data.json; sourceTree = "<group>"; };
+		03292046243908930064CA3D /* SoundClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClip.swift; sourceTree = "<group>"; };
+		03292048243908DD0064CA3D /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		0329204A24390B320064CA3D /* TableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
+		0329204C24390C2B0064CA3D /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		0329204E24390CDC0064CA3D /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		0329205024390F670064CA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Shefuda/Shefuda/Supporting Files/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03291E97243908510064CA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03291E91243908510064CA3D = {
+			isa = PBXGroup;
+			children = (
+				03291E9C243908510064CA3D /* ShefudaSwiftUI */,
+				03291E9B243908510064CA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03291E9B243908510064CA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03291E9A243908510064CA3D /* ShefudaSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03291E9C243908510064CA3D /* ShefudaSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				03291E9D243908510064CA3D /* AppDelegate.swift */,
+				03291E9F243908510064CA3D /* SceneDelegate.swift */,
+				03291EA1243908510064CA3D /* ContentView.swift */,
+				032920442439086A0064CA3D /* clip_data.json */,
+				0329205024390F670064CA3D /* Assets.xcassets */,
+				03291EB1243908640064CA3D /* Sounds */,
+				03291EA8243908520064CA3D /* LaunchScreen.storyboard */,
+				03291EAB243908520064CA3D /* Info.plist */,
+				03291EA5243908520064CA3D /* Preview Content */,
+				03292046243908930064CA3D /* SoundClip.swift */,
+				03292048243908DD0064CA3D /* DataLoader.swift */,
+				0329204A24390B320064CA3D /* TableRow.swift */,
+				0329204C24390C2B0064CA3D /* ShareSheet.swift */,
+				0329204E24390CDC0064CA3D /* SoundPlayer.swift */,
+			);
+			path = ShefudaSwiftUI;
+			sourceTree = "<group>";
+		};
+		03291EA5243908520064CA3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03291EA6243908520064CA3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03291EB1243908640064CA3D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				03291EB2243908640064CA3D /* kane_dhukena.mp3 */,
+				03291EB3243908640064CA3D /* moja_kori_na.mp3 */,
+				03291EB4243908640064CA3D /* hosh_ase.mp3 */,
+				03291EB5243908640064CA3D /* tor_poton_hobe.mp3 */,
+				03291EB6243908640064CA3D /* chapabazi_koro_na.mp3 */,
+				03291EB7243908640064CA3D /* TOR PUTKI TUI MAR.mp3 */,
+				03291EB8243908640064CA3D /* tor shona toh kharay na.mp3 */,
+				03291EB9243908640064CA3D /* love is life.mp3 */,
+				03291EBA243908640064CA3D /* khankir pola petni sudas.mp3 */,
+				03291EBB243908640064CA3D /* oije_kauua.mp3 */,
+				03291EBC243908640064CA3D /* nijer_taka_diya_mod_kinsi.mp3 */,
+				03291EBD243908640064CA3D /* beshsha pola.mp3 */,
+				03291EBE243908640064CA3D /* ami_vashar_abishsek.mp3 */,
+				03291EBF243908640064CA3D /* tora moira ja.mp3 */,
+				03291EC0243908640064CA3D /* khelare sudi.mp3 */,
+				03291EC1243908640064CA3D /* amr_onk_jiboni_prokash_hoyese.mp3 */,
+				03291EC2243908640064CA3D /* mod_khaitasi_akhon.mp3 */,
+				03291EC3243908640064CA3D /* golavanga.mp3 */,
+				03291EC4243908640064CA3D /* ami_mrittoke_joy_koresi.mp3 */,
+				03291EC5243908640064CA3D /* kopal_ta_dekheyso_kmn_amar.mp3 */,
+				03291EC6243908640064CA3D /* lojja lojja lojja.mp3 */,
+				03291EC7243908640064CA3D /* ter_pan_na.mp3 */,
+				03291EC8243908640064CA3D /* proman_ase.mp3 */,
+				03291EC9243908640064CA3D /* amar bal fala.mp3 */,
+				03291ECA243908640064CA3D /* hazar_ta_id_banabo.mp3 */,
+				03291ECB243908640064CA3D /* ami_ai_desh_sadhin_korsi.mp3 */,
+				03291ECC243908640064CA3D /* kemon_lagse_toder.mp3 */,
+				03291ECD243908640064CA3D /* FOKINNI GORIB.mp3 */,
+				03291ECE243908640064CA3D /* haramjadara.mp3 */,
+				03291ECF243908640064CA3D /* oshikhito borbor chotoloker jatera.mp3 */,
+				03291ED0243908640064CA3D /* tomader_jader_bandhobi_nai.mp3 */,
+				03291ED1243908640064CA3D /* amar_ogonito_bandhobi.mp3 */,
+				03291ED2243908640064CA3D /* beshar sodara.mp3 */,
+				03291ED3243908640064CA3D /* beimani_korese.mp3 */,
+				03291ED4243908640064CA3D /* b_a_l_bal.mp3 */,
+				03291ED5243908640064CA3D /* I hate you.mp3 */,
+				03291ED6243908640064CA3D /* nangta_hoya_dekhaya_dimo.mp3 */,
+				03291ED7243908640064CA3D /* of_course_ami_young.mp3 */,
+				03291ED8243908640064CA3D /* ami_hobo_bongovita.mp3 */,
+				03291ED9243908640064CA3D /* murukkhusuda.mp3 */,
+				03291EDA243908640064CA3D /* mod_kha.mp3 */,
+				03291EDB243908640064CA3D /* ei tora more ja.mp3 */,
+				03291EDC243908640064CA3D /* fokinnir suda desh.mp3 */,
+				03291EDD243908640064CA3D /* jama_kapor_na_porle.mp3 */,
+				03291EDE243908640064CA3D /* pad_dile_hago.mp3 */,
+				03291EDF243908640064CA3D /* priyotoma_tomake_valobashi.mp3 */,
+				03291EE0243908640064CA3D /* TOR BOINRE TUI SOD.mp3 */,
+				03291EE1243908640064CA3D /* tor_mokhe_gondho_gaye_gondho.mp3 */,
+				03291EE2243908640064CA3D /* love never dies.mp3 */,
+				03291EE3243908640064CA3D /* motherfucker.mp3 */,
+				03291EE4243908640064CA3D /* shoitan.mp3 */,
+				03291EE5243908640064CA3D /* amare kuttay sudaise.mp3 */,
+				03291EE6243908640064CA3D /* tar_telifon_number_amke_dao.mp3 */,
+				03291EE7243908640064CA3D /* daini_rakhkhoshi.mp3 */,
+				03291EE8243908640064CA3D /* dhormo soda.mp3 */,
+				03291EE9243908640064CA3D /* ami_bishsher_sera_goyenda.mp3 */,
+				03291EEA243908640064CA3D /* mod_beshi_khaya_falaysi.mp3 */,
+				03291EEB243908640064CA3D /* love_you.mp3 */,
+				03291EEC243908640064CA3D /* mal.mp3 */,
+				03291EED243908640064CA3D /* tor mayere sudi.mp3 */,
+				03291EEE243908640064CA3D /* haramjadi.mp3 */,
+				03291EEF243908640064CA3D /* jotar_barir_chote_dat.mp3 */,
+				03291EF0243908640064CA3D /* tui_razakar.mp3 */,
+				03291EF1243908640064CA3D /* tomra_to_oshor_cheye.mp3 */,
+				03291EF2243908640064CA3D /* jatisongher_upodeshta_silam.mp3 */,
+				03291EF3243908640064CA3D /* miya_bibi_raji.mp3 */,
+				03291EF4243908640064CA3D /* ki_khobor_tromader.mp3 */,
+				03291EF5243908640064CA3D /* ai_morkho.mp3 */,
+				03291EF6243908640064CA3D /* sudi na.mp3 */,
+				03291EF7243908640064CA3D /* Evil Laugh.mp3 */,
+				03291EF8243908640064CA3D /* mod khabi manush hobi.mp3 */,
+				03291EF9243908640064CA3D /* take_sera_sandle_nikhkhep_koro.mp3 */,
+				03291EFA243908640064CA3D /* tor mayere tui sod.mp3 */,
+				03291EFB243908640064CA3D /* khankir pola 01.mp3 */,
+				03291EFC243908640064CA3D /* bishshobikhhato.mp3 */,
+				03291EFD243908640064CA3D /* oke thutu maro.mp3 */,
+				03291EFE243908640064CA3D /* mod khabi, magi sudbi, ok.mp3 */,
+				03291EFF243908640064CA3D /* tora kuttasoda.mp3 */,
+				03291F00243908640064CA3D /* tora_manosh.mp3 */,
+				03291F01243908640064CA3D /* banglar_manosh_ak_hou.mp3 */,
+				03291F02243908640064CA3D /* tora murukkhusuda.mp3 */,
+				03291F03243908640064CA3D /* itihash_janos.mp3 */,
+				03291F04243908640064CA3D /* psylogical_treatment.mp3 */,
+				03291F05243908640064CA3D /* taka_abong_sundori_toroni.mp3 */,
+				03291F06243908640064CA3D /* sejonno_ami_ottonto_dokhkhito.mp3 */,
+				03291F07243908640064CA3D /* kutta diye sodabo.mp3 */,
+				03291F08243908640064CA3D /* hingsa_song.mp3 */,
+				03291F09243908640064CA3D /* apnara_protibad_koron.mp3 */,
+				03291F0A243908640064CA3D /* dhonnobad.mp3 */,
+				03291F0B243908640064CA3D /* governor er putkite ami sep dia dhukai disi.mp3 */,
+				03291F0C243908640064CA3D /* taka_poysa.mp3 */,
+				03291F0D243908640064CA3D /* tui_gorib.mp3 */,
+				03291F0E243908640064CA3D /* bandorer_ki_lej_ase.mp3 */,
+				03291F0F243908640064CA3D /* hazar_sangbadik_amar_interview_nei.mp3 */,
+				03291F10243908640064CA3D /* amr_akta_foshom_chirte_parbina.mp3 */,
+				03291F11243908640064CA3D /* ami_voy_paina_ami_nirvik.mp3 */,
+				03291F12243908640064CA3D /* cheers.mp3 */,
+				03291F13243908640064CA3D /* chulkani_tolkani_to_thakei.mp3 */,
+				03291F14243908640064CA3D /* ami_ekjon_vip.mp3 */,
+				03291F15243908640064CA3D /* dakat_er_sordar_criminal_joghonno_beyadob.mp3 */,
+				03291F16243908640064CA3D /* rat_jaga_pakhira.mp3 */,
+				03291F17243908640064CA3D /* ahhhh.mp3 */,
+				03291F18243908640064CA3D /* facebook_ese_sotto_boli.mp3 */,
+				03291F19243908640064CA3D /* tomader_ki_kosto_lagena.mp3 */,
+				03291F1A243908640064CA3D /* valo_manosh.mp3 */,
+				03291F1B243908640064CA3D /* TOR MA BURI SUDI.mp3 */,
+				03291F1C243908640064CA3D /* amar_new_bandhobi.mp3 */,
+				03291F1D243908640064CA3D /* tor maayer bhoda re ami sudi na.mp3 */,
+				03291F1E243908640064CA3D /* ore_bad_de.mp3 */,
+				03291F1F243908640064CA3D /* TOR MAIRE SUDTE ASHI NAI KHANKIR POLA.mp3 */,
+				03291F20243908640064CA3D /* lej_bishisto_silam.mp3 */,
+				03291F21243908640064CA3D /* khubi oshobho kharap.mp3 */,
+				03291F22243908640064CA3D /* amar_voy_manosh_e.mp3 */,
+				03291F23243908640064CA3D /* ami_fokir_dorbesh.mp3 */,
+				03291F24243908640064CA3D /* shubho shondha.mp3 */,
+				03291F25243908640064CA3D /* hingse_hoi.mp3 */,
+				03291F26243908640064CA3D /* helloo.mp3 */,
+				03291F27243908640064CA3D /* lathi_marle_ke_sobdo_korena.mp3 */,
+				03291F28243908640064CA3D /* rubbish.mp3 */,
+				03291F29243908640064CA3D /* donald_trump_ke_2ba_president.mp3 */,
+				03291F2A243908640064CA3D /* sotto_kotha_jante_chaile_mod.mp3 */,
+				03291F2B243908640064CA3D /* bondami_korteaso.mp3 */,
+				03291F2C243908640064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 */,
+				03291F2D243908640064CA3D /* mod khabi, magi sudbi.mp3 */,
+				03291F2E243908640064CA3D /* amke_koti_koti_manush.mp3 */,
+				03291F2F243908640064CA3D /* mod na khaile tor mayere sudi.mp3 */,
+				03291F30243908640064CA3D /* meyeti_khube_sundor.mp3 */,
+				03291F31243908640064CA3D /* sob_noyakhailla_hoya_gese.mp3 */,
+				03291F32243908640064CA3D /* ami_eshesi_ghum_vangate.mp3 */,
+				03291F33243908640064CA3D /* apnara_ghom_theke.mp3 */,
+				03291F34243908640064CA3D /* Tora shob chor.mp3 */,
+				03291F35243908640064CA3D /* tomake_dekhe_rajpotro.mp3 */,
+				03291F36243908640064CA3D /* tomader_lozza_sorom_nai.mp3 */,
+				03291F37243908640064CA3D /* tor mayere tui sod 02.mp3 */,
+				03291F38243908640064CA3D /* oshikhkhito_morkhobo_bosti.mp3 */,
+				03291F39243908640064CA3D /* amar_akta_telifone_prithibi_kape.mp3 */,
+				03291F3A243908640064CA3D /* shubho oporanho.mp3 */,
+				03291F3B243908640064CA3D /* beshsha magi.mp3 */,
+				03291F3C243908640064CA3D /* ghum_vanganiya_pakhi.mp3 */,
+				03291F3D243908640064CA3D /* sobai_valo_thakben_sostho_thakben.mp3 */,
+				03291F3E243908640064CA3D /* gorib.mp3 */,
+				03291F3F243908640064CA3D /* jmn_kokor_tmn_mogor.mp3 */,
+				03291F40243908640064CA3D /* YOU BLOODY BASTARD.mp3 */,
+				03291F41243908640064CA3D /* mod khao ar magi chudo.mp3 */,
+				03291F42243908640064CA3D /* toder_moto_sromik_na.mp3 */,
+				03291F43243908640064CA3D /* nirlojjo behaya.mp3 */,
+				03291F44243908640064CA3D /* soprovat_bd.mp3 */,
+				03291F45243908640064CA3D /* KUTTAR BACHA.mp3 */,
+				03291F46243908640064CA3D /* Ascended khankir pola.mp3 */,
+				03291F47243908640064CA3D /* olta_palta_boltesi_kenu.mp3 */,
+				03291F48243908640064CA3D /* khanki magi.mp3 */,
+				03291F49243908640064CA3D /* marte_marte_dat_gulo_fele_dite_parle.mp3 */,
+				03291F4A243908640064CA3D /* mod khabi naki.mp3 */,
+				03291F4B243908640064CA3D /* amr_sodho_ektai_dorbolota.mp3 */,
+				03291F4C243908640064CA3D /* bet_diye_marte.mp3 */,
+				03291F4D243908640064CA3D /* stupid.mp3 */,
+				03291F4E243908640064CA3D /* oke_sostho_kore_dibo.mp3 */,
+				03291F4F243908640064CA3D /* gayer_rong_forsha_ase.mp3 */,
+				03291F50243908640064CA3D /* noakhailla_khatash.mp3 */,
+				03291F51243908640064CA3D /* tros_tros_kore_mara.mp3 */,
+				03291F52243908640064CA3D /* amr_pet_koto_boro.mp3 */,
+				03291F53243908640064CA3D /* gal_toshtosh_kore.mp3 */,
+				03291F54243908640064CA3D /* amke_valobasen_kenu.mp3 */,
+				03291F55243908640064CA3D /* mithuk dhokabaj.mp3 */,
+				03291F56243908640064CA3D /* gushti sudi.mp3 */,
+				03291F57243908640064CA3D /* shutki khas, petni sudos.mp3 */,
+				03291F58243908640064CA3D /* bash_dei.mp3 */,
+				03291F59243908640064CA3D /* Shuprobhat Bangladeshe Ekhon Shuprobhat.mp3 */,
+				03291F5A243908640064CA3D /* beshar soda.mp3 */,
+				03291F5B243908640064CA3D /* pant_kholo.mp3 */,
+				03291F5C243908640064CA3D /* faltu_kothakar_jottosob.mp3 */,
+				03291F5D243908640064CA3D /* football_khelba_amr_sathe.mp3 */,
+				03291F5E243908640064CA3D /* mod_binimoy_korsi.mp3 */,
+				03291F5F243908640064CA3D /* khanki.mp3 */,
+				03291F60243908640064CA3D /* smartphn_diya_porokiya.mp3 */,
+				03291F61243908640064CA3D /* mod khabo ar magi sudbo.mp3 */,
+				03291F62243908640064CA3D /* MOTHERFUCKER BASTARD JAROZ.mp3 */,
+				03291F63243908640064CA3D /* toder ami ghrina kori.mp3 */,
+				03291F64243908640064CA3D /* akhon_gali_dibo.mp3 */,
+				03291F65243908640064CA3D /* khela_dekh.mp3 */,
+				03291F66243908640064CA3D /* prem_dhormo.mp3 */,
+				03291F67243908640064CA3D /* golam_er_bachcha.mp3 */,
+				03291F68243908640064CA3D /* osadharon_goro.mp3 */,
+				03291F69243908650064CA3D /* onk_akam_kooro_tomra.mp3 */,
+				03291F6A243908650064CA3D /* oishoria_rai_amk_chomo.mp3 */,
+				03291F6B243908650064CA3D /* kutta diya sodaite sodaite.mp3 */,
+				03291F6C243908650064CA3D /* mod_khaba_naki.mp3 */,
+				03291F6D243908650064CA3D /* togore ami kutta diya chodai.mp3 */,
+				03291F6E243908650064CA3D /* preme_seka.mp3 */,
+				03291F6F243908650064CA3D /* ai_sele_tor_girlfriend_nei.mp3 */,
+				03291F70243908650064CA3D /* kotha_kinto_sotto.mp3 */,
+				03291F71243908650064CA3D /* magi sudo.mp3 */,
+				03291F72243908650064CA3D /* agon_niye_khelbina.mp3 */,
+				03291F73243908650064CA3D /* taar putki maira disi.mp3 */,
+				03291F74243908650064CA3D /* goriber suda.mp3 */,
+				03291F75243908650064CA3D /* khankir pola mod kha.mp3 */,
+				03291F76243908650064CA3D /* thank_you.mp3 */,
+				03291F77243908650064CA3D /* akhon_ki_mod_khawar_somoy.mp3 */,
+				03291F78243908650064CA3D /* tui gorib suda.mp3 */,
+				03291F79243908650064CA3D /* amar_moto_hote_chaw.mp3 */,
+				03291F7A243908650064CA3D /* bhoda diya kutta diya sodai.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03291E99243908510064CA3D /* ShefudaSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03291EAE243908520064CA3D /* Build configuration list for PBXNativeTarget "ShefudaSwiftUI" */;
+			buildPhases = (
+				03291E96243908510064CA3D /* Sources */,
+				03291E97243908510064CA3D /* Frameworks */,
+				03291E98243908510064CA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShefudaSwiftUI;
+			productName = ShefudaSwiftUI;
+			productReference = 03291E9A243908510064CA3D /* ShefudaSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03291E92243908510064CA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Shawon Ashraf";
+				TargetAttributes = {
+					03291E99243908510064CA3D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 03291E95243908510064CA3D /* Build configuration list for PBXProject "ShefudaSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03291E91243908510064CA3D;
+			productRefGroup = 03291E9B243908510064CA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03291E99243908510064CA3D /* ShefudaSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03291E98243908510064CA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03291FC3243908650064CA3D /* tor mayere tui sod.mp3 in Resources */,
+				0329202F243908650064CA3D /* prem_dhormo.mp3 in Resources */,
+				03292017243908650064CA3D /* oke_sostho_kore_dibo.mp3 in Resources */,
+				03291FE2243908650064CA3D /* tomader_ki_kosto_lagena.mp3 in Resources */,
+				03292022243908650064CA3D /* Shuprobhat Bangladeshe Ekhon Shuprobhat.mp3 in Resources */,
+				03291FF2243908650064CA3D /* donald_trump_ke_2ba_president.mp3 in Resources */,
+				03291FD2243908650064CA3D /* apnara_protibad_koron.mp3 in Resources */,
+				03291FD0243908650064CA3D /* kutta diye sodabo.mp3 in Resources */,
+				03291FC7243908650064CA3D /* mod khabi, magi sudbi, ok.mp3 in Resources */,
+				03291FBB243908650064CA3D /* jatisongher_upodeshta_silam.mp3 in Resources */,
+				03292034243908650064CA3D /* kutta diya sodaite sodaite.mp3 in Resources */,
+				03291F7B243908650064CA3D /* kane_dhukena.mp3 in Resources */,
+				03291EAA243908520064CA3D /* LaunchScreen.storyboard in Resources */,
+				03291FBE243908650064CA3D /* ai_morkho.mp3 in Resources */,
+				03291F86243908650064CA3D /* beshsha pola.mp3 in Resources */,
+				03292018243908650064CA3D /* gayer_rong_forsha_ase.mp3 in Resources */,
+				03291FFC243908650064CA3D /* apnara_ghom_theke.mp3 in Resources */,
+				03291FB1243908650064CA3D /* dhormo soda.mp3 in Resources */,
+				03291FF7243908650064CA3D /* amke_koti_koti_manush.mp3 in Resources */,
+				0329203D243908650064CA3D /* goriber suda.mp3 in Resources */,
+				03291F8F243908650064CA3D /* lojja lojja lojja.mp3 in Resources */,
+				0329201A243908650064CA3D /* tros_tros_kore_mara.mp3 in Resources */,
+				03291FED243908650064CA3D /* shubho shondha.mp3 in Resources */,
+				03291FE3243908650064CA3D /* valo_manosh.mp3 in Resources */,
+				03291F84243908650064CA3D /* oije_kauua.mp3 in Resources */,
+				03291FD5243908650064CA3D /* taka_poysa.mp3 in Resources */,
+				03291F83243908650064CA3D /* khankir pola petni sudas.mp3 in Resources */,
+				03292024243908650064CA3D /* pant_kholo.mp3 in Resources */,
+				03291F8A243908650064CA3D /* amr_onk_jiboni_prokash_hoyese.mp3 in Resources */,
+				03291FB3243908650064CA3D /* mod_beshi_khaya_falaysi.mp3 in Resources */,
+				03291FBA243908650064CA3D /* tomra_to_oshor_cheye.mp3 in Resources */,
+				03291FCD243908650064CA3D /* psylogical_treatment.mp3 in Resources */,
+				03291FA2243908650064CA3D /* murukkhusuda.mp3 in Resources */,
+				03292000243908650064CA3D /* tor mayere tui sod 02.mp3 in Resources */,
+				03291FF6243908650064CA3D /* mod khabi, magi sudbi.mp3 in Resources */,
+				03291FA9243908650064CA3D /* TOR BOINRE TUI SOD.mp3 in Resources */,
+				03291F96243908650064CA3D /* FOKINNI GORIB.mp3 in Resources */,
+				0329200E243908650064CA3D /* KUTTAR BACHA.mp3 in Resources */,
+				03291F92243908650064CA3D /* amar bal fala.mp3 in Resources */,
+				03291F9F243908650064CA3D /* nangta_hoya_dekhaya_dimo.mp3 in Resources */,
+				03291FCA243908650064CA3D /* banglar_manosh_ak_hou.mp3 in Resources */,
+				03291FEF243908650064CA3D /* helloo.mp3 in Resources */,
+				03291FD4243908650064CA3D /* governor er putkite ami sep dia dhukai disi.mp3 in Resources */,
+				03291FC6243908650064CA3D /* oke thutu maro.mp3 in Resources */,
+				03291F94243908650064CA3D /* ami_ai_desh_sadhin_korsi.mp3 in Resources */,
+				03291FF5243908650064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 in Resources */,
+				03291FE4243908650064CA3D /* TOR MA BURI SUDI.mp3 in Resources */,
+				03291FB6243908650064CA3D /* tor mayere sudi.mp3 in Resources */,
+				03292016243908650064CA3D /* stupid.mp3 in Resources */,
+				0329202B243908650064CA3D /* MOTHERFUCKER BASTARD JAROZ.mp3 in Resources */,
+				03291F90243908650064CA3D /* ter_pan_na.mp3 in Resources */,
+				03291FE0243908650064CA3D /* ahhhh.mp3 in Resources */,
+				0329202A243908650064CA3D /* mod khabo ar magi sudbo.mp3 in Resources */,
+				03291FCC243908650064CA3D /* itihash_janos.mp3 in Resources */,
+				03292012243908650064CA3D /* marte_marte_dat_gulo_fele_dite_parle.mp3 in Resources */,
+				03291F7D243908650064CA3D /* hosh_ase.mp3 in Resources */,
+				03291FBF243908650064CA3D /* sudi na.mp3 in Resources */,
+				03292036243908650064CA3D /* togore ami kutta diya chodai.mp3 in Resources */,
+				03292040243908650064CA3D /* akhon_ki_mod_khawar_somoy.mp3 in Resources */,
+				03291FF1243908650064CA3D /* rubbish.mp3 in Resources */,
+				03291F8D243908650064CA3D /* ami_mrittoke_joy_koresi.mp3 in Resources */,
+				0329201B243908650064CA3D /* amr_pet_koto_boro.mp3 in Resources */,
+				03291F9A243908650064CA3D /* amar_ogonito_bandhobi.mp3 in Resources */,
+				03291FDD243908650064CA3D /* ami_ekjon_vip.mp3 in Resources */,
+				03291F8C243908650064CA3D /* golavanga.mp3 in Resources */,
+				03291FEC243908650064CA3D /* ami_fokir_dorbesh.mp3 in Resources */,
+				03291EA7243908520064CA3D /* Preview Assets.xcassets in Resources */,
+				03291F9E243908650064CA3D /* I hate you.mp3 in Resources */,
+				0329201D243908650064CA3D /* amke_valobasen_kenu.mp3 in Resources */,
+				0329202C243908650064CA3D /* toder ami ghrina kori.mp3 in Resources */,
+				03291FD8243908650064CA3D /* hazar_sangbadik_amar_interview_nei.mp3 in Resources */,
+				03291FCF243908650064CA3D /* sejonno_ami_ottonto_dokhkhito.mp3 in Resources */,
+				0329203B243908650064CA3D /* agon_niye_khelbina.mp3 in Resources */,
+				03292028243908650064CA3D /* khanki.mp3 in Resources */,
+				03291FBD243908650064CA3D /* ki_khobor_tromader.mp3 in Resources */,
+				03291FA6243908650064CA3D /* jama_kapor_na_porle.mp3 in Resources */,
+				03291FC2243908650064CA3D /* take_sera_sandle_nikhkhep_koro.mp3 in Resources */,
+				03292015243908650064CA3D /* bet_diye_marte.mp3 in Resources */,
+				03291FB5243908650064CA3D /* mal.mp3 in Resources */,
+				0329202E243908650064CA3D /* khela_dekh.mp3 in Resources */,
+				03291FE7243908650064CA3D /* ore_bad_de.mp3 in Resources */,
+				03291F80243908650064CA3D /* TOR PUTKI TUI MAR.mp3 in Resources */,
+				03291FA3243908650064CA3D /* mod_kha.mp3 in Resources */,
+				03291F7C243908650064CA3D /* moja_kori_na.mp3 in Resources */,
+				03291F87243908650064CA3D /* ami_vashar_abishsek.mp3 in Resources */,
+				03292039243908650064CA3D /* kotha_kinto_sotto.mp3 in Resources */,
+				03291F8E243908650064CA3D /* kopal_ta_dekheyso_kmn_amar.mp3 in Resources */,
+				03291FF8243908650064CA3D /* mod na khaile tor mayere sudi.mp3 in Resources */,
+				03292032243908650064CA3D /* onk_akam_kooro_tomra.mp3 in Resources */,
+				0329203C243908650064CA3D /* taar putki maira disi.mp3 in Resources */,
+				03291FC4243908650064CA3D /* khankir pola 01.mp3 in Resources */,
+				03291FD1243908650064CA3D /* hingsa_song.mp3 in Resources */,
+				03291F9D243908650064CA3D /* b_a_l_bal.mp3 in Resources */,
+				0329203E243908650064CA3D /* khankir pola mod kha.mp3 in Resources */,
+				0329203A243908650064CA3D /* magi sudo.mp3 in Resources */,
+				03291FAD243908650064CA3D /* shoitan.mp3 in Resources */,
+				03291FAF243908650064CA3D /* tar_telifon_number_amke_dao.mp3 in Resources */,
+				03292021243908650064CA3D /* bash_dei.mp3 in Resources */,
+				03291FC1243908650064CA3D /* mod khabi manush hobi.mp3 in Resources */,
+				03292004243908650064CA3D /* beshsha magi.mp3 in Resources */,
+				03291F88243908650064CA3D /* tora moira ja.mp3 in Resources */,
+				03291FCB243908650064CA3D /* tora murukkhusuda.mp3 in Resources */,
+				03291FB8243908650064CA3D /* jotar_barir_chote_dat.mp3 in Resources */,
+				03291F98243908650064CA3D /* oshikhito borbor chotoloker jatera.mp3 in Resources */,
+				03291FA0243908650064CA3D /* of_course_ami_young.mp3 in Resources */,
+				03292026243908650064CA3D /* football_khelba_amr_sathe.mp3 in Resources */,
+				03291F91243908650064CA3D /* proman_ase.mp3 in Resources */,
+				03291FEB243908650064CA3D /* amar_voy_manosh_e.mp3 in Resources */,
+				03292020243908650064CA3D /* shutki khas, petni sudos.mp3 in Resources */,
+				03291FFA243908650064CA3D /* sob_noyakhailla_hoya_gese.mp3 in Resources */,
+				03292001243908650064CA3D /* oshikhkhito_morkhobo_bosti.mp3 in Resources */,
+				03291FF3243908650064CA3D /* sotto_kotha_jante_chaile_mod.mp3 in Resources */,
+				03291FA5243908650064CA3D /* fokinnir suda desh.mp3 in Resources */,
+				03291FA8243908650064CA3D /* priyotoma_tomake_valobashi.mp3 in Resources */,
+				03291FFF243908650064CA3D /* tomader_lozza_sorom_nai.mp3 in Resources */,
+				03291FD3243908650064CA3D /* dhonnobad.mp3 in Resources */,
+				03291FBC243908650064CA3D /* miya_bibi_raji.mp3 in Resources */,
+				03292014243908650064CA3D /* amr_sodho_ektai_dorbolota.mp3 in Resources */,
+				03291FC8243908650064CA3D /* tora kuttasoda.mp3 in Resources */,
+				03291F95243908650064CA3D /* kemon_lagse_toder.mp3 in Resources */,
+				03291FB4243908650064CA3D /* love_you.mp3 in Resources */,
+				03291FE1243908650064CA3D /* facebook_ese_sotto_boli.mp3 in Resources */,
+				03291FDE243908650064CA3D /* dakat_er_sordar_criminal_joghonno_beyadob.mp3 in Resources */,
+				03292030243908650064CA3D /* golam_er_bachcha.mp3 in Resources */,
+				03291FC9243908650064CA3D /* tora_manosh.mp3 in Resources */,
+				0329203F243908650064CA3D /* thank_you.mp3 in Resources */,
+				0329200A243908650064CA3D /* mod khao ar magi chudo.mp3 in Resources */,
+				032920452439086A0064CA3D /* clip_data.json in Resources */,
+				03291FF9243908650064CA3D /* meyeti_khube_sundor.mp3 in Resources */,
+				03292019243908650064CA3D /* noakhailla_khatash.mp3 in Resources */,
+				03292041243908650064CA3D /* tui gorib suda.mp3 in Resources */,
+				03291FB2243908650064CA3D /* ami_bishsher_sera_goyenda.mp3 in Resources */,
+				03292025243908650064CA3D /* faltu_kothakar_jottosob.mp3 in Resources */,
+				03291F8B243908650064CA3D /* mod_khaitasi_akhon.mp3 in Resources */,
+				03292003243908650064CA3D /* shubho oporanho.mp3 in Resources */,
+				0329201F243908650064CA3D /* gushti sudi.mp3 in Resources */,
+				03291FB7243908650064CA3D /* haramjadi.mp3 in Resources */,
+				0329200C243908650064CA3D /* nirlojjo behaya.mp3 in Resources */,
+				03291FDF243908650064CA3D /* rat_jaga_pakhira.mp3 in Resources */,
+				03291FD7243908650064CA3D /* bandorer_ki_lej_ase.mp3 in Resources */,
+				03291F9C243908650064CA3D /* beimani_korese.mp3 in Resources */,
+				03292005243908650064CA3D /* ghum_vanganiya_pakhi.mp3 in Resources */,
+				03292029243908650064CA3D /* smartphn_diya_porokiya.mp3 in Resources */,
+				03291F9B243908650064CA3D /* beshar sodara.mp3 in Resources */,
+				03291FAA243908650064CA3D /* tor_mokhe_gondho_gaye_gondho.mp3 in Resources */,
+				03291F81243908650064CA3D /* tor shona toh kharay na.mp3 in Resources */,
+				03292011243908650064CA3D /* khanki magi.mp3 in Resources */,
+				03292031243908650064CA3D /* osadharon_goro.mp3 in Resources */,
+				03291FD9243908650064CA3D /* amr_akta_foshom_chirte_parbina.mp3 in Resources */,
+				03291FCE243908650064CA3D /* taka_abong_sundori_toroni.mp3 in Resources */,
+				0329200D243908650064CA3D /* soprovat_bd.mp3 in Resources */,
+				03292042243908650064CA3D /* amar_moto_hote_chaw.mp3 in Resources */,
+				03292013243908650064CA3D /* mod khabi naki.mp3 in Resources */,
+				03291FFB243908650064CA3D /* ami_eshesi_ghum_vangate.mp3 in Resources */,
+				03291FEE243908650064CA3D /* hingse_hoi.mp3 in Resources */,
+				03291FFD243908650064CA3D /* Tora shob chor.mp3 in Resources */,
+				03291FE6243908650064CA3D /* tor maayer bhoda re ami sudi na.mp3 in Resources */,
+				0329201E243908650064CA3D /* mithuk dhokabaj.mp3 in Resources */,
+				03291F99243908650064CA3D /* tomader_jader_bandhobi_nai.mp3 in Resources */,
+				03292006243908650064CA3D /* sobai_valo_thakben_sostho_thakben.mp3 in Resources */,
+				0329202D243908650064CA3D /* akhon_gali_dibo.mp3 in Resources */,
+				03291F97243908650064CA3D /* haramjadara.mp3 in Resources */,
+				0329200B243908650064CA3D /* toder_moto_sromik_na.mp3 in Resources */,
+				03291FAC243908650064CA3D /* motherfucker.mp3 in Resources */,
+				03291FFE243908650064CA3D /* tomake_dekhe_rajpotro.mp3 in Resources */,
+				0329200F243908650064CA3D /* Ascended khankir pola.mp3 in Resources */,
+				03291F89243908650064CA3D /* khelare sudi.mp3 in Resources */,
+				03291FDA243908650064CA3D /* ami_voy_paina_ami_nirvik.mp3 in Resources */,
+				03291F82243908650064CA3D /* love is life.mp3 in Resources */,
+				03291FDC243908650064CA3D /* chulkani_tolkani_to_thakei.mp3 in Resources */,
+				03291FF0243908650064CA3D /* lathi_marle_ke_sobdo_korena.mp3 in Resources */,
+				03292035243908650064CA3D /* mod_khaba_naki.mp3 in Resources */,
+				03292038243908650064CA3D /* ai_sele_tor_girlfriend_nei.mp3 in Resources */,
+				03291FF4243908650064CA3D /* bondami_korteaso.mp3 in Resources */,
+				0329201C243908650064CA3D /* gal_toshtosh_kore.mp3 in Resources */,
+				03291FD6243908650064CA3D /* tui_gorib.mp3 in Resources */,
+				03291FAB243908650064CA3D /* love never dies.mp3 in Resources */,
+				03291FB0243908650064CA3D /* daini_rakhkhoshi.mp3 in Resources */,
+				03292043243908650064CA3D /* bhoda diya kutta diya sodai.mp3 in Resources */,
+				03291FC5243908650064CA3D /* bishshobikhhato.mp3 in Resources */,
+				03292037243908650064CA3D /* preme_seka.mp3 in Resources */,
+				03291FAE243908650064CA3D /* amare kuttay sudaise.mp3 in Resources */,
+				03292008243908650064CA3D /* jmn_kokor_tmn_mogor.mp3 in Resources */,
+				03292023243908650064CA3D /* beshar soda.mp3 in Resources */,
+				03291FE5243908650064CA3D /* amar_new_bandhobi.mp3 in Resources */,
+				03291FDB243908650064CA3D /* cheers.mp3 in Resources */,
+				03292009243908650064CA3D /* YOU BLOODY BASTARD.mp3 in Resources */,
+				03292027243908650064CA3D /* mod_binimoy_korsi.mp3 in Resources */,
+				03291F93243908650064CA3D /* hazar_ta_id_banabo.mp3 in Resources */,
+				03291FA1243908650064CA3D /* ami_hobo_bongovita.mp3 in Resources */,
+				03291F7F243908650064CA3D /* chapabazi_koro_na.mp3 in Resources */,
+				03291FEA243908650064CA3D /* khubi oshobho kharap.mp3 in Resources */,
+				03291FE8243908650064CA3D /* TOR MAIRE SUDTE ASHI NAI KHANKIR POLA.mp3 in Resources */,
+				03291F7E243908650064CA3D /* tor_poton_hobe.mp3 in Resources */,
+				03291FE9243908650064CA3D /* lej_bishisto_silam.mp3 in Resources */,
+				03291F85243908650064CA3D /* nijer_taka_diya_mod_kinsi.mp3 in Resources */,
+				03292007243908650064CA3D /* gorib.mp3 in Resources */,
+				0329205124390F670064CA3D /* Assets.xcassets in Resources */,
+				03291FC0243908650064CA3D /* Evil Laugh.mp3 in Resources */,
+				03291FA4243908650064CA3D /* ei tora more ja.mp3 in Resources */,
+				03291FB9243908650064CA3D /* tui_razakar.mp3 in Resources */,
+				03292010243908650064CA3D /* olta_palta_boltesi_kenu.mp3 in Resources */,
+				03292002243908650064CA3D /* amar_akta_telifone_prithibi_kape.mp3 in Resources */,
+				03292033243908650064CA3D /* oishoria_rai_amk_chomo.mp3 in Resources */,
+				03291FA7243908650064CA3D /* pad_dile_hago.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03291E96243908510064CA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03292049243908DD0064CA3D /* DataLoader.swift in Sources */,
+				03291E9E243908510064CA3D /* AppDelegate.swift in Sources */,
+				0329204F24390CDC0064CA3D /* SoundPlayer.swift in Sources */,
+				03291EA0243908510064CA3D /* SceneDelegate.swift in Sources */,
+				03291EA2243908510064CA3D /* ContentView.swift in Sources */,
+				03292047243908930064CA3D /* SoundClip.swift in Sources */,
+				0329204B24390B320064CA3D /* TableRow.swift in Sources */,
+				0329204D24390C2B0064CA3D /* ShareSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03291EA8243908520064CA3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03291EA9243908520064CA3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03291EAC243908520064CA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03291EAD243908520064CA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03291EAF243908520064CA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShefudaSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.ShefudaSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03291EB0243908520064CA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShefudaSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.ShefudaSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03291E95243908510064CA3D /* Build configuration list for PBXProject "ShefudaSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03291EAC243908520064CA3D /* Debug */,
+				03291EAD243908520064CA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03291EAE243908520064CA3D /* Build configuration list for PBXNativeTarget "ShefudaSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03291EAF243908520064CA3D /* Debug */,
+				03291EB0243908520064CA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03291E92243908510064CA3D /* Project object */;
+}
