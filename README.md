@@ -1,4 +1,4 @@
-# Shefuda
+# ShefudaSwfitUI
 > A Shefatullah Soundboard app for iOS
 > Ported to SwiftUI
 
