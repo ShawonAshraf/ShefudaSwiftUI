@@ -438,6 +438,7 @@
 		0329204C24390C2B0064CA3D /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		0329204E24390CDC0064CA3D /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		0329205024390F670064CA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Shefuda/Shefuda/Supporting Files/Assets.xcassets"; sourceTree = "<group>"; };
+		03354A662439C68B00C2CCEB /* ShefudaSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShefudaSwiftUI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -470,6 +471,7 @@
 		03291E9C243908510064CA3D /* ShefudaSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				03354A662439C68B00C2CCEB /* ShefudaSwiftUI.entitlements */,
 				03291E9D243908510064CA3D /* AppDelegate.swift */,
 				03291E9F243908510064CA3D /* SceneDelegate.swift */,
 				03291EA1243908510064CA3D /* ContentView.swift */,
@@ -1120,8 +1122,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShefudaSwiftUI/ShefudaSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShefudaSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1130,6 +1134,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.ShefudaSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1139,8 +1144,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShefudaSwiftUI/ShefudaSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShefudaSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1149,6 +1156,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.ShefudaSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
