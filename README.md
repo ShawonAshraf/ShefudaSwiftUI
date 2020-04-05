@@ -34,7 +34,10 @@ First of all you need a mac with macOS and Xcode installed. No you can't do it o
 - Run it on your device or simulator.
 
 ## Device Support
-iPhone and iPad
+iPhone, iPad, Mac
+
+## Known Issues for the Mac Version
+The share button isn't fully implemented for macOS yet. 
 
 ## Side loading on your device
 You can do that from Xcode. Just make sure you have your Apple ID. You can follow this [tutorial](https://youtu.be/VvrBbBjP-Hs) or [this one](https://youtu.be/bpyslMcAsgs).
