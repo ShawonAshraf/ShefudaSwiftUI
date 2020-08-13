@@ -23,6 +23,7 @@ struct TableRow: View {
             
             Spacer()
             
+            #if os(iOS)
             Button(action: {
                 // sharesheet action
                 self.showingSheet.toggle()
@@ -31,6 +32,7 @@ struct TableRow: View {
             }.sheet(isPresented: self.$showingSheet, onDismiss: nil) {
                 ShareSheet(activityItems: [ try? SoundPlayer.instance.getSoundFileURL(fileName: self.fileName) as Any])
             }
+            #endif
         }.padding()
     }
 }

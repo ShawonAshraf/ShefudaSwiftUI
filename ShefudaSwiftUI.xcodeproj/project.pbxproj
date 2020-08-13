@@ -1128,6 +1128,7 @@
 				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1150,6 +1151,7 @@
 				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
