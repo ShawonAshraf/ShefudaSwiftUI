@@ -36,6 +36,9 @@ First of all you need a mac with macOS and Xcode installed. No you can't do it o
 ## Device Support
 iPhone, iPad, Mac
 
+## Download for macOS
+You can download it from [here](https://github.com/ShawonAshraf/ShefudaSwiftUI/releases/tag/1.0-mac), unzip the file and then run the app. 
+
 ## Known Issues for the Mac Version
 The share button isn't fully implemented for macOS yet. 
 
