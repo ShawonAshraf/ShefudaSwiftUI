@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -88,7 +88,7 @@
 		03291FC4243908650064CA3D /* khankir pola 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFB243908640064CA3D /* khankir pola 01.mp3 */; };
 		03291FC5243908650064CA3D /* bishshobikhhato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFC243908640064CA3D /* bishshobikhhato.mp3 */; };
 		03291FC6243908650064CA3D /* oke thutu maro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFD243908640064CA3D /* oke thutu maro.mp3 */; };
-		03291FC7243908650064CA3D /* mod khabi, magi sudbi, ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFE243908640064CA3D /* mod khabi, magi sudbi, ok.mp3 */; };
+		03291FC7243908650064CA3D /* mod_khabi_magi_sudbi_ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFE243908640064CA3D /* mod_khabi_magi_sudbi_ok.mp3 */; };
 		03291FC8243908650064CA3D /* tora kuttasoda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291EFF243908640064CA3D /* tora kuttasoda.mp3 */; };
 		03291FC9243908650064CA3D /* tora_manosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F00243908640064CA3D /* tora_manosh.mp3 */; };
 		03291FCA243908650064CA3D /* banglar_manosh_ak_hou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F01243908640064CA3D /* banglar_manosh_ak_hou.mp3 */; };
@@ -135,7 +135,7 @@
 		03291FF3243908650064CA3D /* sotto_kotha_jante_chaile_mod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2A243908640064CA3D /* sotto_kotha_jante_chaile_mod.mp3 */; };
 		03291FF4243908650064CA3D /* bondami_korteaso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2B243908640064CA3D /* bondami_korteaso.mp3 */; };
 		03291FF5243908650064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2C243908640064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 */; };
-		03291FF6243908650064CA3D /* mod khabi, magi sudbi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2D243908640064CA3D /* mod khabi, magi sudbi.mp3 */; };
+		03291FF6243908650064CA3D /* mod_khabi_magi_sudbi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2D243908640064CA3D /* mod_khabi_magi_sudbi.mp3 */; };
 		03291FF7243908650064CA3D /* amke_koti_koti_manush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2E243908640064CA3D /* amke_koti_koti_manush.mp3 */; };
 		03291FF8243908650064CA3D /* mod na khaile tor mayere sudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F2F243908640064CA3D /* mod na khaile tor mayere sudi.mp3 */; };
 		03291FF9243908650064CA3D /* meyeti_khube_sundor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03291F30243908640064CA3D /* meyeti_khube_sundor.mp3 */; };
@@ -306,7 +306,7 @@
 		03291EFB243908640064CA3D /* khankir pola 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khankir pola 01.mp3"; sourceTree = "<group>"; };
 		03291EFC243908640064CA3D /* bishshobikhhato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bishshobikhhato.mp3; sourceTree = "<group>"; };
 		03291EFD243908640064CA3D /* oke thutu maro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oke thutu maro.mp3"; sourceTree = "<group>"; };
-		03291EFE243908640064CA3D /* mod khabi, magi sudbi, ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabi, magi sudbi, ok.mp3"; sourceTree = "<group>"; };
+		03291EFE243908640064CA3D /* mod_khabi_magi_sudbi_ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_khabi_magi_sudbi_ok.mp3; sourceTree = "<group>"; };
 		03291EFF243908640064CA3D /* tora kuttasoda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tora kuttasoda.mp3"; sourceTree = "<group>"; };
 		03291F00243908640064CA3D /* tora_manosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tora_manosh.mp3; sourceTree = "<group>"; };
 		03291F01243908640064CA3D /* banglar_manosh_ak_hou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banglar_manosh_ak_hou.mp3; sourceTree = "<group>"; };
@@ -353,7 +353,7 @@
 		03291F2A243908640064CA3D /* sotto_kotha_jante_chaile_mod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sotto_kotha_jante_chaile_mod.mp3; sourceTree = "<group>"; };
 		03291F2B243908640064CA3D /* bondami_korteaso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bondami_korteaso.mp3; sourceTree = "<group>"; };
 		03291F2C243908640064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3"; sourceTree = "<group>"; };
-		03291F2D243908640064CA3D /* mod khabi, magi sudbi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod khabi, magi sudbi.mp3"; sourceTree = "<group>"; };
+		03291F2D243908640064CA3D /* mod_khabi_magi_sudbi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mod_khabi_magi_sudbi.mp3; sourceTree = "<group>"; };
 		03291F2E243908640064CA3D /* amke_koti_koti_manush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amke_koti_koti_manush.mp3; sourceTree = "<group>"; };
 		03291F2F243908640064CA3D /* mod na khaile tor mayere sudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mod na khaile tor mayere sudi.mp3"; sourceTree = "<group>"; };
 		03291F30243908640064CA3D /* meyeti_khube_sundor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meyeti_khube_sundor.mp3; sourceTree = "<group>"; };
@@ -577,7 +577,7 @@
 				03291EFB243908640064CA3D /* khankir pola 01.mp3 */,
 				03291EFC243908640064CA3D /* bishshobikhhato.mp3 */,
 				03291EFD243908640064CA3D /* oke thutu maro.mp3 */,
-				03291EFE243908640064CA3D /* mod khabi, magi sudbi, ok.mp3 */,
+				03291EFE243908640064CA3D /* mod_khabi_magi_sudbi_ok.mp3 */,
 				03291EFF243908640064CA3D /* tora kuttasoda.mp3 */,
 				03291F00243908640064CA3D /* tora_manosh.mp3 */,
 				03291F01243908640064CA3D /* banglar_manosh_ak_hou.mp3 */,
@@ -624,7 +624,7 @@
 				03291F2A243908640064CA3D /* sotto_kotha_jante_chaile_mod.mp3 */,
 				03291F2B243908640064CA3D /* bondami_korteaso.mp3 */,
 				03291F2C243908640064CA3D /* tor maayer bhoda dia dhukai dimu tor mukh dia bair hoibo.mp3 */,
-				03291F2D243908640064CA3D /* mod khabi, magi sudbi.mp3 */,
+				03291F2D243908640064CA3D /* mod_khabi_magi_sudbi.mp3 */,
 				03291F2E243908640064CA3D /* amke_koti_koti_manush.mp3 */,
 				03291F2F243908640064CA3D /* mod na khaile tor mayere sudi.mp3 */,
 				03291F30243908640064CA3D /* meyeti_khube_sundor.mp3 */,
@@ -732,8 +732,9 @@
 		03291E92243908510064CA3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Shawon Ashraf";
 				TargetAttributes = {
 					03291E99243908510064CA3D = {
@@ -772,7 +773,7 @@
 				03291FF2243908650064CA3D /* donald_trump_ke_2ba_president.mp3 in Resources */,
 				03291FD2243908650064CA3D /* apnara_protibad_koron.mp3 in Resources */,
 				03291FD0243908650064CA3D /* kutta diye sodabo.mp3 in Resources */,
-				03291FC7243908650064CA3D /* mod khabi, magi sudbi, ok.mp3 in Resources */,
+				03291FC7243908650064CA3D /* mod_khabi_magi_sudbi_ok.mp3 in Resources */,
 				03291FBB243908650064CA3D /* jatisongher_upodeshta_silam.mp3 in Resources */,
 				03292034243908650064CA3D /* kutta diya sodaite sodaite.mp3 in Resources */,
 				03291F7B243908650064CA3D /* kane_dhukena.mp3 in Resources */,
@@ -798,7 +799,7 @@
 				03291FCD243908650064CA3D /* psylogical_treatment.mp3 in Resources */,
 				03291FA2243908650064CA3D /* murukkhusuda.mp3 in Resources */,
 				03292000243908650064CA3D /* tor mayere tui sod 02.mp3 in Resources */,
-				03291FF6243908650064CA3D /* mod khabi, magi sudbi.mp3 in Resources */,
+				03291FF6243908650064CA3D /* mod_khabi_magi_sudbi.mp3 in Resources */,
 				03291FA9243908650064CA3D /* TOR BOINRE TUI SOD.mp3 in Resources */,
 				03291F96243908650064CA3D /* FOKINNI GORIB.mp3 in Resources */,
 				0329200E243908650064CA3D /* KUTTAR BACHA.mp3 in Resources */,
@@ -1008,6 +1009,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1030,6 +1032,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1040,6 +1043,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1054,7 +1058,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1068,6 +1072,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1090,6 +1095,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1100,6 +1106,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1108,7 +1115,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1128,7 +1135,8 @@
 				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1151,7 +1159,8 @@
 				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShefudaSwiftUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
